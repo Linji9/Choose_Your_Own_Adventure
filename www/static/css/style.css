@@ -1,11 +1,38 @@
 body {
     font-family: sans-serif;
-    max-width: 700px;
-    margin: 4rem auto;
-    padding: 0 1rem;
+    margin: 0;
+    padding: 0;
+    width: 100%;
     color: #222;
 }
 
 h1 {
-    color: #2b5fa4;
+    font-family: "Garamond", serif;
+    font-weight: bold;
+    font-size: 4rem;
+    text-align: center;
+    margin: 8px;
+    padding: 0;
+    color:black;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+p {
+    font-family: "Garamond", serif;
+    font-size: 2rem;
+    margin: 40px;
+    padding: 0;
+    color:black;
+}
+
+ul {
+    font-family: "Garamond", serif;
+    list-style-type: "🏰";
+    margin: 40px;
+    font-size: 25px
 }
