@@ -1,7 +1,7 @@
 body {
     font-family: sans-serif;
-    margin: 0;
     padding: 0;
+    margin: 0;
     width: 100%;
     color: #222;
 }
@@ -9,10 +9,9 @@ body {
 h1 {
     font-family: "Garamond", serif;
     font-weight: bold;
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
     margin: 8px;
-    padding: 0;
     color:black;
 }
 
@@ -22,17 +21,29 @@ img {
     height: auto;
 }
 
-p {
+h2 {
     font-family: "Garamond", serif;
+    font-weight: bold;
     font-size: 2rem;
     margin: 40px;
     padding: 0;
     color:black;
 }
 
+p {
+    font-family: "Garamond", serif;
+    font-size: 1.5rem;
+    margin: 40px;
+    color:black;
+}
+
+p span {
+    text-decoration: underline;
+}
+
 ul {
     font-family: "Garamond", serif;
     list-style-type: "🏰";
     margin: 40px;
-    font-size: 25px
+    font-size: 20px
 }
