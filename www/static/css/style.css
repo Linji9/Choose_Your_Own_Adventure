@@ -22,12 +22,25 @@ img {
     height: auto;
 }
 
-p {
+h2 {
     font-family: "Garamond", serif;
-    font-size: 2rem;
+    font-weight: bold;
+    font-size: 3rem;
     margin: 40px;
     padding: 0;
     color:black;
+}
+
+p {
+    font-family: "Garamond", serif;
+    font-size: 2rem;
+    margin: 60px;
+    padding: 0;
+    color:black;
+}
+
+p span {
+    text-decoration: underline;
 }
 
 ul {
