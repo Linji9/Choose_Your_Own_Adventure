@@ -84,3 +84,11 @@ ul {
     margin: 10px;
     font-size: 20px;
 }
+
+.Background {
+    background-image: url(../img/ragdoll.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+}
