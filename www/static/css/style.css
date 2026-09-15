@@ -17,8 +17,10 @@ h1 {
 
 img {
     display: block;
-    width: 100%;
+    width: 99.3%;
     height: auto;
+    border: 4px solid black;
+    border-radius: 25px;
 }
 
 h2 {
@@ -36,9 +38,30 @@ p {
     margin: 40px;
     color:black;
 }
+.HeaderNav {
+    display: flex;
+    justify-content: center;
+    font-family: "Garamond", serif;
+    font-size: 1.5rem;
+    color:black;
+    border: 4px solid black;
+    border-radius: 25px;
+    padding-left: 5px;
+    width: 20%;
+}
 
-.header {
-    padding-bottom: 10px;
+.Header {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    margin: 10px;
+}
+
+.HeaderImage {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5px;
+    width: 80%;
 }
 
 .extra_space {
@@ -49,9 +72,49 @@ p {
     text-decoration: underline;
 }
 
+.HeaderText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 ul {
     font-family: "Garamond", serif;
-    list-style-type: "🏰";
+    list-style-type: "\01F3F0";
+    margin: 10px;
+    font-size: 20px;
+}
+
+.Background {
+    background-image: url(../img/ragdoll.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+/* for character choose sheet below */
+ul.noCastle {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Garamond", serif;
+    list-style-type: none;
     margin: 40px;
+    padding: 0px;
     font-size: 20px
+    /* try to make text/margin/padding percentage*/
+}
+li {
+    display: flex;
+    border: 3px solid rgb(95, 42, 42);
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgb(244, 221, 221);
+    box-sizing: border-box;
+    width: 20%;
+    justify-content: center;
+}
+
+img.appear{
+    display: hidden;
 }
