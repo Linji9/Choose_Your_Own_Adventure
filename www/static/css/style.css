@@ -37,7 +37,15 @@ p {
     color:black;
 }
 
-p span {
+.header {
+    padding-bottom: 10px;
+}
+
+.extra_space {
+    padding: 10px;
+}
+
+.underlined {
     text-decoration: underline;
 }
 
