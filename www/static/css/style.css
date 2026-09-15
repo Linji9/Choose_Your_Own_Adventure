@@ -92,3 +92,29 @@ ul {
     background-size: cover;
     background-attachment: scroll;
 }
+
+/* for character choose sheet below */
+ul.noCastle {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Garamond", serif;
+    list-style-type: none;
+    margin: 40px;
+    padding: 0px;
+    font-size: 20px
+    /* try to make text/margin/padding percentage*/
+}
+li {
+    display: flex;
+    border: 3px solid rgb(95, 42, 42);
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgb(244, 221, 221);
+    box-sizing: border-box;
+    width: 20%;
+    justify-content: center;
+}
+
+img.appear{
+    display: hidden;
+}
