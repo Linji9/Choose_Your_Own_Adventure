@@ -101,10 +101,10 @@ ul.noCastle {
     list-style-type: none;
     margin: 40px;
     padding: 0px;
-    font-size: 20px
+    font-size: 20px;
     /* try to make text/margin/padding percentage*/
 }
-li {
+ul.noCastle li {
     display: flex;
     border: 3px solid rgb(95, 42, 42);
     border-radius: 15px;
@@ -116,5 +116,30 @@ li {
 }
 
 img.appear{
-    display: hidden;
+    display: none;
+}
+
+.charButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    width: 100%;
+
+    font-family: "Garamond", serif;
+    font-size: 20px; 
+}
+
+@media screen and (max-width: 700px) {
+    ul.noCastle {
+        display : flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        list-style: none;
+        gap: 10px;
+    }
+
+    ul.noCastle li {
+        width: 48%;
+    }
 }
