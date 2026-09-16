@@ -104,11 +104,7 @@ ul.noCastle {
     font-size: 20px;
     /* try to make text/margin/padding percentage*/
 }
-<<<<<<< HEAD
-ul.noCastle li {
-=======
-li.Char {
->>>>>>> c1485e0dd42196b460ee86342037ada04a13ae5e
+li.char {
     display: flex;
     border: 3px solid rgb(95, 42, 42);
     border-radius: 15px;
