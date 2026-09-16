@@ -78,9 +78,9 @@ p {
     justify-content: center;
 }
 
-ul {
+.Castle{
     font-family: "Garamond", serif;
-    list-style-type: "\01F3F0";
+    list-style-type: "🏰";
     margin: 10px;
     font-size: 20px;
 }
@@ -104,7 +104,7 @@ ul.noCastle {
     font-size: 20px
     /* try to make text/margin/padding percentage*/
 }
-li {
+li.Char {
     display: flex;
     border: 3px solid rgb(95, 42, 42);
     border-radius: 15px;
