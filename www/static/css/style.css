@@ -9,7 +9,6 @@ body {
 }
 
 
-
 h1 {
     font-family: "Garamond", serif;
     font-weight: bold;
@@ -111,9 +110,6 @@ p {
     display: block;
 }
 
-
-
-
 .Background {
     background-image: url(../img/TNEA_Background.png);
     background-repeat: no-repeat;
@@ -136,7 +132,8 @@ ul.noCastle {
     font-size: 20px;
     /* try to make text/margin/padding percentage*/
 }
-li.Char {
+
+li.char {
     display: flex;
     border: 3px solid rgb(95, 42, 42);
     border-radius: 15px;
