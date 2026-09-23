@@ -26,22 +26,60 @@
         <div class="buttons">
             <ul class="noCastle">
                 <li class = "char"><button class = "charButton" onclick="showImage('princess')">Princess Petunia</button></li>
-                <li class = "char" ><button class = "charButton" onclick="showImage('paladine')">Paladin Ken</button></li>
+                <li class = "char" ><button class = "charButton" onclick="showImage('paladin')">Paladin Ken</button></li>
                 <li class = "char"><button class = "charButton" onclick="showImage('dragon')"> Dragon</button> </li>
                 <li class = "char"><button class = "charButton" onclick="showImage('jester')">Jester</button></li>
             </ul>
 
-        <div>
+        <div class = "charImg reveal" id = "princess">
             <img src = "static/img/princess.png"/> 
+
+            <p>
+                Step into a royal life filled with… well, anything you want! Getting everything you ask for can be pretty boring, 
+                so you find some adventure by defying your parents’ orders and venturing beyond the castle walls.
+            </p>
         </div>
-        <div>
-            <img class="appear" src = "static/img/tempKen.png"/>
+        <div class = "charImg" id = "paladin">
+            <img  src = "static/img/tempKen.png"/>
+
+            <p>
+                Grab your sword and prepare to face treacherous adventures. Being a paladin has its perks, ride through the kingdom
+                grounds on your trusty steed. You’ll be facing some challenging opponents through your journey.
+            </p>
         </div> 
+        <div class = "charImg" id = "dragon">
+            <img src = "static/img/dragon.png"/> 
+
+            <p>
+                Breathe fire and soar across enchanted skies as a mythical being. Choose your own path through the site, 
+                living your life in dragon bliss.
+            </p>
         </div>
-            <img class="appear" src = "static/img/dragon.png"/> 
+        <div class = "charImg" id = "jester">
+            <img src = "static/img/jester.png"/>
+
+            <p>
+                Bring laughter and mischief to the royal court with clever wit. As The Jester, you must use your playful 
+                tricks to navigate the sticky situations that all jesters face.
+            </p>
         </div>
-        <div>
-            <img class="appear" src = "static/img/jester.png"/>
-        </div>
+
+
+        <script>
+            function showImage(id) {
+                //selecting only the divs with className .charImg
+                const divs = document.querySelectorAll(".charImg");
+
+                //looping through them to make sure they don't have the reveal class
+                for (const div of divs) {
+                    div.className = "charImg";
+                }
+                //element.classList.remove('reveal');
+
+                //revealing the actual image we want
+                const img = document.getElementById(id);
+                img.classList.add('reveal');
+            }
+        </script>
     </body>
 </html>

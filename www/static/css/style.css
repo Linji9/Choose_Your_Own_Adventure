@@ -133,6 +133,7 @@ ul.noCastle {
     /* try to make text/margin/padding percentage*/
 }
 
+
 li.char {
     display: flex;
     border: 3px solid rgb(95, 42, 42);
@@ -142,10 +143,6 @@ li.char {
     box-sizing: border-box;
     width: 20%;
     justify-content: center;
-}
-
-img.appear{
-    display: none;
 }
 
 .charButton {
@@ -159,6 +156,7 @@ img.appear{
     font-size: 20px; 
 }
 
+/* makes buttons stack once the page gets too small */
 @media screen and (max-width: 700px) {
     ul.noCastle {
         display : flex;
@@ -170,5 +168,30 @@ img.appear{
 
     ul.noCastle li {
         width: 48%;
+    }
+}
+
+/* classes used to reveal and hide buttons*/
+.charImg{
+    display: none;
+}
+
+.charImg.reveal{
+    display: block;
+}
+
+/* img and text are side by side */
+div.charImg.reveal {
+    display: flex;
+    align-items: center;
+}
+
+/* adjusts so picture and text stacks when screen is too small */
+@media screen and (max-width: 700px) {
+    div.charImg.reveal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
