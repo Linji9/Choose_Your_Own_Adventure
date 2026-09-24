@@ -37,24 +37,33 @@ p {
 
 /* New Header Layout/Design below*/
 .New_Header_Logo {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.New_Header_Logo img {
     width: 100%;
     height: auto;
 }
 
+.mobile_header {
+    display: none;
+}
+
 .header_container {
-    display: block;
-    position: relative;
+    display: flex;
+    justify-content: space-evenly;
     width: 100%;
+    height: 155px;
     margin: 0 auto;
 }
 
 .HeaderNav {
-    position: absolute;
     display: flex;
     justify-content: flex-end;
-    align-items: flex-start;
-    padding: 15px 25px;
+    align-items: center;
+    padding-right: 35px;
     top: 0;
     left: 0;
     box-sizing: border-box;
@@ -69,6 +78,56 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media screen and (max-width: 700px) {
+.mobile_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    width: auto;
+    margin: 5%;
+}
+
+.mobile_header img {
+    width: 100%;
+    height: auto;
+}
+
+.New_Header_Logo {
+    display: none;
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 155px;
+    margin: 0 auto;
+}
+
+.HeaderNav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 35px;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    font-family: "Garamond", serif;
+    font-size: 1.5rem;
+    color:black;
+    text-shadow: 2px 2px 8px;
+    width: 100%;
+}
+
+.HeaderText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 }
 
 /* For Nav Bar*/
@@ -259,4 +318,15 @@ div.charImg.reveal {
         justify-content: center;
         align-items: center;
     }
+}
+
+.everyPageBackground {
+    background-image: url(../img/pageBackground.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 115vh;
+    width: 100vw;
+    overflow: hidden;
 }
