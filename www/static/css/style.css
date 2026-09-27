@@ -14,7 +14,7 @@ h1 {
     font-weight: bold;
     font-size: 3rem;
     text-align: center;
-    margin: 8px;
+    margin: 50px;
     color:black;
 }
 
@@ -127,7 +127,6 @@ p {
     align-items: center;
     justify-content: center;
 }
-
 }
 
 /* For Nav Bar*/
@@ -192,7 +191,6 @@ p {
     background-attachment: scroll;
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
 }
 
 @media screen and (max-width: 650px) {
@@ -204,7 +202,6 @@ p {
     background-attachment: scroll;
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
     }
 
     .image_stack {
@@ -327,6 +324,17 @@ div.charImg.reveal {
     background-size: cover;
     background-attachment: scroll;
     height: 115vh;
-    width: 100vw;
-    overflow: hidden;
+    width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+    .everyPageBackground{
+    background-image: url(../img/mobileBackground.png);
+    background-repeat: no-repeat;
+    background-position: center -30px;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 100%;
+    width: auto;
+    }
 }
