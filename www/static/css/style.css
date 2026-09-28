@@ -332,6 +332,13 @@ div.charImg.reveal {
     align-items: center;
 }
 
+/* img and text are side by side */
+div.charImg.reveal.color {
+    display: flex;
+    align-items: center;
+    background-color: rgb(141, 243, 16);
+}
+
 /* adjusts so picture and text stacks when screen is too small */
 @media screen and (max-width: 700px) {
     div.charImg.reveal {
@@ -362,4 +369,11 @@ div.charImg.reveal {
     height: 100%;
     width: auto;
     }
+}
+
+/* secret buttons thrown in */
+.secretButton {
+  padding: 16px;
+  background-color: transparent;
+  border: none;
 }

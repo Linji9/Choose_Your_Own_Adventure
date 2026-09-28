@@ -46,7 +46,7 @@
             </p>
         </div>
         <div class = "charImg" id = "paladin">
-            <img  src = "static/img/tempKen.png"/>
+            <img  src = "static/img/Ken.png"/>
 
             <p>
                 Grab your sword and prepare to face treacherous adventures. Being a paladin has its perks, ride through the kingdom
@@ -63,11 +63,11 @@
         </div>
         <div class = "charImg" id = "jester">
             <img src = "static/img/jester.png"/>
-
             <p>
                 Bring laughter and mischief to the royal court with clever wit. As The Jester, you must use your playful 
                 tricks to navigate the sticky situations that all jesters face.
             </p>
+            <button class="secretButton" onclick="changeJesterColor()"> </button>
         </div>
 
 
@@ -93,19 +93,8 @@
                 document.getElementById("navDropdown").classList.toggle("show");
             }
 
-            // Close the dropdown if the clicked outside
-            // from w3schools https://www.w3schools.com/howto/howto_js_dropdown.asp
-            window.onclick = function(event) {
-                if (!event.target.matches('.DropdownBtn')) {
-                    var dropdowns = document.getElementsByClassName("DropdownContent");
-                    var i;
-                    for (i = 0; i < dropdowns.length; i++) {
-                        var openDropdown = dropdowns[i];
-                        if (openDropdown.classList.contains('show')) {
-                            openDropdown.classList.remove('show');
-                        }
-                    }
-                }
+            function changeJesterColor(){
+                document.getElementById("jester").classList.toggle("color");
             }
         </script>
     </body>
