@@ -17,11 +17,13 @@
                 </div>
                 <div class="HeaderNav">
                     <div class="HeaderText">
-                        <ul class="Castle">
-                            <li><a href=home.html>Home</a></li>
-                            <li><a href=about.html>About Us!</a></li>
-                            <li><a href="https://www.canva.com/design/DAHULFmVmZ4/he5CpgfcdCciXI0MS4XsAA/edit" target="_blank">Design Process!</a></li>
-                        </ul>
+                        <!-- developed using w3schools https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown -->
+                        <button onclick="dropMenu()" class="DropdownBtn"> </button>
+                        <div id="navDropdown" class="DropdownContent">
+                            <a href=home.html>Home</a>
+                            <a href=about.html>About Us!</a>
+                            <a href="https://www.canva.com/design/DAHULFmVmZ4/he5CpgfcdCciXI0MS4XsAA/edit" target="_blank">Design Process!</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -83,6 +85,27 @@
                 //revealing the actual image we want
                 const img = document.getElementById(id);
                 img.classList.add('reveal');
+            }
+
+            // toggle between hiding and showing the dropdown content
+            // from w3schools https://www.w3schools.com/howto/howto_js_dropdown.asp
+            function dropMenu() {
+                document.getElementById("navDropdown").classList.toggle("show");
+            }
+
+            // Close the dropdown if the clicked outside
+            // from w3schools https://www.w3schools.com/howto/howto_js_dropdown.asp
+            window.onclick = function(event) {
+                if (!event.target.matches('.DropdownBtn')) {
+                    var dropdowns = document.getElementsByClassName("DropdownContent");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                        var openDropdown = dropdowns[i];
+                        if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                        }
+                    }
+                }
             }
         </script>
     </body>
