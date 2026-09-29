@@ -1,0 +1,38 @@
+{
+    "char" : 
+    {
+        "princess" : {
+                "1" : {
+                    "description" : "You are a princess in a castle.",
+                    "question" : "what do you do?",
+                    "image" : "/static/img/p1",
+                    "choices" : {
+                        "Do nothing" : "2.1",
+                        "Take the gift" : "filler",
+                        "kick them out" : "filler"
+                    }
+                },
+                "2.1" : {
+                    "description" : "You did nothing.",
+                    "question" : "filler",
+                    "image" : "/static/img/p2.11",
+                    "choices" : {
+                        "Do nothing" : "(princess, 2.1)",
+                        "Take the gift" : "filler",
+                        "kick them out" : "filler"
+                    }
+                }
+        },
+        "paladin" : {
+
+        },
+        "dragon" : 
+        {
+
+        },
+        "jester" : 
+        {
+
+        }
+    }
+}

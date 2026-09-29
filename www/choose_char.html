@@ -32,7 +32,7 @@
         <div class="buttons">
             <ul class="noCastle">
                 <li class = "char"><button class = "charButton" onclick="showImage('princess')">Princess Petunia</button></li>
-                <li class = "char" ><button class = "charButton" onclick="showImage('paladin')">Paladin Ken</button></li>
+                <li class = "char" ><button class = "charButton" onclick="showImage('ken')">Paladin Ken</button></li>
                 <li class = "char"><button class = "charButton" onclick="showImage('dragon')"> Dragon</button> </li>
                 <li class = "char"><button class = "charButton" onclick="showImage('jester')">Jester</button></li>
             </ul>
@@ -44,14 +44,20 @@
                 Step into a royal life filled with… well, anything you want! Getting everything you ask for can be pretty boring, 
                 so you find some adventure by defying your parents’ orders and venturing beyond the castle walls.
             </p>
+            <div>
+                <a ref="play?c=p&s=1"> <img src="static/img/pNext.png"/> </a>
+            </div>
         </div>
-        <div class = "charImg" id = "paladin">
+        <div class = "charImg" id = "ken">
             <img  src = "static/img/Ken.png"/>
 
             <p>
                 Grab your sword and prepare to face treacherous adventures. Being a paladin has its perks, ride through the kingdom
                 grounds on your trusty steed. You’ll be facing some challenging opponents through your journey.
             </p>
+            <div>
+                <a ref="play?c=k&s=1"> <img src="static/img/kNext.png"/> </a>
+            </div>
         </div> 
         <div class = "charImg" id = "dragon">
             <img src = "static/img/dragon.png"/> 
@@ -60,6 +66,9 @@
                 Breathe fire and soar across enchanted skies as a mythical being. Choose your own path through the site, 
                 living your life in dragon bliss.
             </p>
+            <div>
+                <a ref="play?c=d&s=1"> <img src="static/img/dNext.png"/> </a>
+            </div>
         </div>
         <div class = "charImg" id = "jester">
             <img src = "static/img/jester.png"/>
@@ -67,9 +76,14 @@
                 Bring laughter and mischief to the royal court with clever wit. As The Jester, you must use your playful 
                 tricks to navigate the sticky situations that all jesters face.
             </p>
+            <!-- <div>
+                <button onclick="firstPage(jester)"> <img src="filler"/> </button>
+            </div> -->
+            <div>
+                <a ref="play?c=j&s=1"> <img src="static/img/jNext.png"/> </a>
+            </div>
             <button class="secretButton" onclick="changeJesterColor()"> </button>
         </div>
-
 
         <script>
             function showImage(id) {
@@ -92,6 +106,10 @@
             function dropMenu() {
                 document.getElementById("navDropdown").classList.toggle("show");
             }
+
+            // async function firstPage(char){
+
+            // }
 
             function changeJesterColor(){
                 document.getElementById("jester").classList.toggle("color");

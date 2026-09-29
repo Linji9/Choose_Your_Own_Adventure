@@ -10,3 +10,11 @@ def home():
 @app.route("/hello")
 def hello():
     return "Hello, world!"
+
+@app.route("/getCharScene/<char><scene>")
+def getCharScene(char, scene):
+    # go into json file
+    # get the char
+    # dive in further and get the json file associated with scene 
+    thatJSONfile = None
+    return thatJSONfile
