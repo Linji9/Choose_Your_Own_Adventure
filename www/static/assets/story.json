@@ -3,36 +3,193 @@
     {
         "princess" : {
                 "1" : {
-                    "description" : "You are a princess in a castle.",
-                    "question" : "what do you do?",
+                    "description" : "You are staring out of your high tower window, watching the royal guards patrol the courtyard below, while holding a bag of packed travel clothes.",
+                    "question" : "How do you escape the castle walls?",
                     "image" : "/static/img/p1",
                     "choices" : {
-                        "Do nothing" : "2.1",
-                        "Take the gift" : "filler",
-                        "kick them out" : "filler"
+                        "Toss a knotted bedsheet rope out the window and climb down into the royal gardens." : "2.1",
+                        "Bribe the castle gatekeeper with your spare gold jewelry to look the other way" : "2.2",
+                        "Sneak down the old, dark, echoing staircase into the castle cellars." : "2.3"
                     }
                 },
                 "2.1" : {
-                    "description" : "You did nothing.",
-                    "question" : "filler",
+                    "description" : "You brush past tangled vines and find a lost royal guard sitting on a mossy stone, weeping over a broken compass, and ignoring his duties.",
+                    "question" : "How do you handle this unexpected obstacle?",
                     "image" : "/static/img/p2.11",
                     "choices" : {
-                        "Do nothing" : "(princess, 2.1)",
-                        "Take the gift" : "filler",
-                        "kick them out" : "filler"
+                        "Offer him a comforting word and a silk handkerchief and flee." : "3.1",
+                        "Demand he give you directions to the exit immediately." : "3.1",
+                        "Sneak past him quietly while he wipes his eyes." : "3.2"
+                    }
+                },
+                "2.2" : {
+                    "description" : "You duck behind a row of colorful vendor tents, bump into a pile of silk rugs, and notice a merchant selling glowing trinkets.",
+                    "question" : "What catches your royal eye in the shadows?",
+                    "image" : "/static/img/p2.11",
+                    "choices" : {
+                        "Inspect a silver locket humming with magical energy. You open the locket and a dust covers your eyes." : "3.2",
+                        "Buy a suspicious glowing apple with your spare gold and run towards the forest." : "3.2",
+                        "Ask the merchant if he has seen any secret exits out of town and take that route." : "3.1"
+                    }
+                },
+                "2.3" : {
+                    "description" : "You wander down the damp stone corridor, step over a puddle of murky water, and hear a strange clanking noise coming from an open jail cell.",
+                    "question" : "What is your next move in the dark?",
+                    "image" : "/static/img/p2.11",
+                    "choices" : {
+                        "Crawl through the vent to your left" : "3.2",
+                        "Call out with your most authoritative royal voice and demand to know where the exit is." : "3.1",
+                        "Keep walking quickly past the door and into the dark." : "3.2"
+                    }
+                },
+                "3.1" : {
+                    "description" : "You approach a sparkling river where the water is flowing completely backwards, and suddenly a heavily armored knight crashes through the bushes on a panting horse, shouting about an emergency. You are forced to team up to cross this broken stream thing.",
+                    "question" : "What is your next move as compantions?",
+                    "image" : "/static/img/p2.11",
+                    "choices" : {
+                        "Jump across the floating rocks that seem to be flickering in and out of existence." : "4.1",
+                        "Try to talk to the frozen fish suspended in midair to see if it knows a way across." : "4.1",
+                        "Force the knight to test the glitchy water first while you watch safely from dry ground." : "3.2"
+                    }
+                },
+                "3.2" : {
+                    "description" : "You find a clearing where a giant block of cheese is hovering in the air, and the knight stumbles out from the trees right beside you, muttering about corrupted game files. You are stuck handling this weird dairy anomaly together.",
+                    "question" : "What is your next move as a team?",
+                    "image" : "/static/img/p2.11",
+                    "choices" : {
+                        "Take a small bite of the floating cheese to see if it gives you magic powers or something." : "4.2",
+                        "Ask the knight to slash the cheese block with his broadsword." : "4.2",
+                        "Walk slowly around the cheese because it looks like it might explode if touched." : "4.1"
                     }
                 }
         },
         "paladin" : {
-
+                "1" : {
+                    "description" : "You are standing in the sunny castle courtyard polishing your breastplate while your trusty steed munches on clover nearby.",
+                    "question" : "What is your immediate priority before setting out on your quest?",
+                    "image" : "/static/img/p1",
+                    "choices" : {
+                        "Mount your steed and gallop straight toward the Whispering Woods." : "2.1",
+                        "Stop by the castle armory to swap your broadsword for a lighter, sharper blade." : "2.2",
+                        "Visit the royal stables to check on your animal companions and pack extra rations." : "2.3"
+                    }
+                },
+                "2.1" : {
+                    "description" : "Your trusty steed stops abruptly as a lost royal guard stumbles out from behind a thick oak tree, looking completely panicked, and dropping his shield.",
+                    "question" : "How do you address the frightened man?",
+                    "image" : "/static/img/p2.11",
+                    "choices" : {
+                        "Draw your sword defensively as a bluff, then run the opposite direction." : "3.1",
+                        "Ignore him and continue your journey." : "3.1",
+                        "Ask him if he has seen any dangerous beasts in the woods. Follow his word." : "3.2"
+                    }
+                },
+                "2.2" : {
+                    "description" : "You tie your horse to a wooden post, adjust your heavy armor, and walk up to a merchant tent displaying polished weaponry.",
+                    "question" : "How do you prepare for the journey ahead?",
+                    "image" : "/static/img/p2.11",
+                    "choices" : {
+                        "Purchase a shiney new set of armour. Set off on your journey." : "3.2",
+                        "Question the merchant about local outlaws in the area. Mount your steed and follow the lead." : "3.2",
+                        "Trade a gold coin for a detailed map of the kingdom. Use the map to scout out your next stop." : "3.1"
+                    }
+                },
+                "2.3" : {
+                    "description" : "Your heavy armor clanks loudly as you navigate the narrow hedge paths, push aside heavy branches, and find a hidden staircase leading underground.",
+                    "question" : "How do you approach the mysterious stairs?",
+                    "image" : "/static/img/p2.11",
+                    "choices" : {
+                        "Descend the stone steps bravely into the darkness." : "3.1",
+                        "Turn around. You didn't sign up for this." : "3.1",
+                        "Run as fast as you can with your eyes closed so you can't see the scary monsters." : "3.2"
+                    }
+                }
         },
         "dragon" : 
         {
-
+                "1" : {
+                    "description" : "You are resting comfortably atop a massive pile of sparkling gold coins in your cozy mountain cave, listening to the wind howl outside.",
+                    "question" : "What disturbs your peaceful afternoon nap?",
+                    "image" : "/static/img/p1",
+                    "choices" : {
+                        "RAWR!" : "2.1",
+                        "Rawr..." : "2.2",
+                        "rawr :(" : "2.3"
+                    }
+                },
+                "2.1" : {
+                    "description" : "You spot a nervous traveler dropping their supplies on the cliff path, screaming in terror, and running away.",
+                    "question" : "What do you do with the abandoned goods?",
+                    "image" : "/static/img/p2.11",
+                    "choices" : {
+                        "Rawrrrr" : "3.1",
+                        "RAWR RAWR" : "3.1",
+                        "rawr" : "3.2"
+                    }
+                },
+                "2.2" : {
+                    "description" : "The smell of roasted treats draws you toward a busy merchant tent, causing the crowd to scatter in panic, and leaving the food unguarded.",
+                    "question" : "How do you secure your afternoon snack?",
+                    "image" : "/static/img/p2.11",
+                    "choices" : {
+                        "RAWR RAWR RAWR RAWR" : "3.2",
+                        "rawrrrrrr" : "3.2",
+                        "RRRRRawrr" : "3.1"
+                    }
+                },
+                "2.3" : {
+                    "description" : "The narrow cave crack opens up into a damp chamber beneath the earth, smelling of old iron, and echoing with dripping water.",
+                    "question" : "How do you navigate this tiny human cave?",
+                    "image" : "/static/img/p2.11",
+                    "choices" : {
+                        "rawr" : "3.1",
+                        "Rawr rawr" : "3.2",
+                        "RRRRRRAAAWRRR" : "3.2"
+                    }
+                }
         },
         "jester" : 
         {
-
+                "1" : {
+                    "description" : "A crown of gold and face of stone, while bells are ringing all alone. Three flying pins in golden light, yet mock the monarch's cheerless sight.",
+                    "question" : "What clever trick shall win the crowd, and make the silent sovereign loud?",
+                    "image" : "/static/img/p1",
+                    "choices" : {
+                        "A pastry hurled with speedy grace, right in the solemn counselor's face, to seek the woods and running space!" : "2.1",
+                        "A squeaking fowl of rubber skin, a tumbling leap where mazes spin" : "2.2",
+                        "A hidden latch beneath the floor, to tumble where dark vaults explore!" : "2.3"
+                    }
+                },
+                "2.1" : {
+                    "description" : "Where shadows dance and green things grow, a tumbling fool seeks path to go, and jagged stones sit in a row.",
+                    "question" : "Which silly step will break the trance and lead me to the fairy dance?",
+                    "image" : "/static/img/p2.11",
+                    "choices" : {
+                        "I climb the rocky ledge so high!" : "3.1",
+                        "I follow roots where beetles lie!" : "3.2",
+                        "I juggle pinecones to the sky!" : "3.1"
+                    }
+                },
+                "2.2" : {
+                    "description" : "A maze of green with walls so high, where lost men sit and softly sigh, while twisted vines block out the sky.",
+                    "question" : "A shining shield in armor bright, or weeping soul is in your sight?",
+                    "image" : "/static/img/p2.11",
+                    "choices" : {
+                        "I walk right up and tap his head, get out he said." : "3.1",
+                        "I leap the hedge and flee instead." : "3.2",
+                        "I leave confetti colored red." : "3.2"
+                    }
+                },
+                "2.3" : {
+                    "description" : "Down below where water drips, and iron bars seal quiet lips, a shadow past the doorway slips.",
+                    "question" : "A stony door or echoing hall, which secret answers when you call?",
+                    "image" : "/static/img/p2.11",
+                    "choices" : {
+                        "I pick the lock with flower stems." : "3.1",
+                        "I slip through bars like polished gems." : "3.2",
+                        "I sing a backwards tune to them and escape once again." : "3.1"
+                    }
+                }
         }
     }
 }
