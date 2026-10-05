@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content = "width = device-width"/>
+        <title>The Neverending Adventure</title>
+        <link rel="stylesheet" href="static/css/style.css"/>
+    </head>
+
+    <body class="everyPageBackground">
+        <nav>
+            <div class="header_container">
+                <div class="mobile_header">
+                    <img src="static/img/newMobileHeader.png"/>
+                </div>
+                <div class="New_Header_Logo">
+                    <img src="static/img/headerText.png"/>
+                </div>
+                <div class="HeaderNav">
+                    <div class="HeaderText">
+                        <!-- developed using w3schools https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown -->
+                        <button onclick="dropMenu()" class="DropdownBtn"> </button>
+                        <div id="navDropdown" class="DropdownContent">
+                            <a href=home.html>Home</a>
+                            <a href=about.html>About Us!</a>
+                            <a href="https://www.canva.com/design/DAHULFmVmZ4/he5CpgfcdCciXI0MS4XsAA/edit" target="_blank">Design Process!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+        <p id = "playDesc"> </p>
+        <p id = "playQ"> </p>
+
+        <img id = "playImg">
+
+       <button id= "play1"></button>
+       <button id = "play2"></button>
+       <button id = "play3"></button>
+
+        <script>
+            async function loadPlay(char, scene) {
+
+                //need to add encodingURL 
+                const res = await fetch("/play?c=p&s=1");
+
+                //converting to a JS object, equivalent of a dict
+                const sceneData = await res.json;
+
+                //getting description text from json file
+                const descriptionTxt = document.createTextNode(sceneData["description"]);
+                document.getElementById("playDesc").appendChild(descriptionTxt);
+
+                 //getting Question text from json file
+                const questionTxt = document.createTextNode(sceneData["question"]);
+                document.getElementById("playQ").appendChild(questionTxt);
+
+                 //getting img from json file
+                const play_img = document.createTextNode(sceneData["image"]);
+                document.getElementById("playImg").setAttribute("src", play_img);
+
+                 //getting Scenarios text from json file
+                const opts = sceneData["choices"].keys()
+                const nextScenes = sceneData["choices"].values()
+                
+                //Choice 1
+                const opt1_txt = document.createTextNode(opts[0])
+                document.getElementById("play1").appendChild(opt1_txt)
+
+                // FIX LOADPLAY (CHAR, SCENE) 
+                document.getElementById("play1").setAttribute("onclick", "loadPlay(char, scene)")
+
+                //choice 2
+                const opt2_txt = document.createTextNode(opts[1])
+                document.getElementById("play2").appendChild(opt2_txt)
+
+                // FIX LOADPLAY (CHAR, SCENE) 
+                document.getElementById("play2").setAttribute("onclick", "loadPlay(char, scene)")
+
+                //choice 3
+                const opt3_txt = document.createTextNode(opts[2])
+                document.getElementById("play3").appendChild(opt3_txt)
+
+                // FIX LOADPLAY (CHAR, SCENE) 
+                document.getElementById("play3").setAttribute("onclick", "loadPlay(char, scene)")
+            }
+        </script>
+    </body>
+</html>
