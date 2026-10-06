@@ -63,26 +63,23 @@
                 const opts = sceneData["choices"].keys()
                 const nextScenes = sceneData["choices"].values()
                 
-                //Choice 1
+                    //Choice 1
                 const opt1_txt = document.createTextNode(opts[0])
+                    //adding choice 1 txt to button
                 document.getElementById("play1").appendChild(opt1_txt)
+                    //when button clicked calls loadplay and loads the next scene
+                    //HOW TO UPDATE SCENE TO NEW SCENE 
+                document.getElementById("play1").addEventListener('click', function() {loadPlay(char, scene)})
 
-                // FIX LOADPLAY (CHAR, SCENE) 
-                document.getElementById("play1").setAttribute("onclick", "loadPlay(char, scene)")
-
-                //choice 2
+                    //choice 2
                 const opt2_txt = document.createTextNode(opts[1])
                 document.getElementById("play2").appendChild(opt2_txt)
+                document.getElementById("play2").addEventListener('click', function() {loadPlay(char, scene)})
 
-                // FIX LOADPLAY (CHAR, SCENE) 
-                document.getElementById("play2").setAttribute("onclick", "loadPlay(char, scene)")
-
-                //choice 3
+                    //choice 3
                 const opt3_txt = document.createTextNode(opts[2])
                 document.getElementById("play3").appendChild(opt3_txt)
-
-                // FIX LOADPLAY (CHAR, SCENE) 
-                document.getElementById("play3").setAttribute("onclick", "loadPlay(char, scene)")
+                document.getElementById("play3").addEventListener('click', function() {loadPlay(char, scene)})
             }
         </script>
     </body>
