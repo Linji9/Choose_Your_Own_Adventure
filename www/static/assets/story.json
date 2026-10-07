@@ -65,7 +65,7 @@
         },
         "paladin" : {
                 "1" : {
-                    "description" : "You are standing in the sunny castle courtyard polishing your breastplate while your trusty steed munches on clover nearby.",
+                    "description" : "You are sitting in the sunny castle courtyard polishing your breastplate while your trusty steed munches on clover nearby.",
                     "question" : "What is your immediate priority before setting out on your quest?",
                     "image" : "/static/img/p1",
                     "choices" : {

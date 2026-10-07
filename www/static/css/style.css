@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
 
 body {
     font-family: sans-serif;
@@ -179,7 +182,8 @@ p {
 }
 
 .home_image_text {
-    width: 300px;
+    width: 400px;
+    height: auto;
     display:block;
     transform: translate(-150px, 50px)
 }
@@ -289,6 +293,7 @@ li.char {
     box-sizing: border-box;
     width: 20%;
     justify-content: center;
+    margin-top: 30px;
 }
 
 .charButton {
@@ -300,6 +305,8 @@ li.char {
 
     font-family: "Garamond", serif;
     font-size: 20px; 
+
+    
 }
 
 /* makes buttons stack once the page gets too small */
@@ -349,11 +356,33 @@ div.charImg.reveal.color {
     }
 }
 
+/*changes font for each character*/
+#princess p{
+    font-family: "Moon Dance", cursive;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#ken p {
+    font-family: Papyrus, "Old English Text MT", Garamond, "Palatino Linotype", Palatino, Georgia, serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#dragon p{
+    font-family: "Rock Salt", cursive;
+    font-size: x-large;
+}
+
+#jester p{
+    font-family: "Kablammo", cursive;
+    font-size: x-large;
+}
 .everyPageBackground {
-    background-image: url(../img/pageBackground.png);
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: cover;
+    background-image: url(../img/pageBackground.png), url(../img/mobileBackground.png);
+    background-repeat: no-repeat, repeat-y;
+    background-position: center top, center top;
+    background-size: cover, 100% auto;
     background-attachment: scroll;
     height: 115vh;
     width: 100%;
