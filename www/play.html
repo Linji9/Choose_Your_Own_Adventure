@@ -6,7 +6,8 @@
         <link rel="stylesheet" href="static/css/style.css"/>
     </head>
 
-    <body class="everyPageBackground">
+    <!-- somehow make this a template and "princess" will be replaced with template!-->
+    <body class="everyPageBackground" onload = "loadPlay('princess','Begin')">
         <nav>
             <div class="header_container">
                 <div class="mobile_header">
@@ -34,18 +35,21 @@
 
         <img id = "playImg">
 
-       <button id= "play1"></button>
-       <button id = "play2"></button>
-       <button id = "play3"></button>
+        <button id= "play1"></button>
+        <button id = "play2"></button>
+        <button id = "play3"></button>
 
         <script>
-            async function loadPlay(char, scene) {
+            async function loadPlay(char, lastChoice) {
+                //later, maybe we could make this page a template and use that to name this var?
+                // but also with it being an event listener maybe we don't need it
+                //character = princess;
 
                 //need to add encodingURL 
                 const res = await fetch("/play?c=p&s=1");
 
                 //converting to a JS object, equivalent of a dict
-                const sceneData = await res.json;
+                const sceneData = await res.json();
 
                 //getting description text from json file
                 const descriptionTxt = document.createTextNode(sceneData["description"]);
@@ -63,23 +67,21 @@
                 const opts = sceneData["choices"].keys()
                 const nextScenes = sceneData["choices"].values()
                 
-                    //Choice 1
+                    //choice 1
                 const opt1_txt = document.createTextNode(opts[0])
-                    //adding choice 1 txt to button
                 document.getElementById("play1").appendChild(opt1_txt)
                     //when button clicked calls loadplay and loads the next scene
-                    //HOW TO UPDATE SCENE TO NEW SCENE 
-                document.getElementById("play1").addEventListener('click', function() {loadPlay(char, scene)})
+                document.getElementById("play1").addEventListener('click', function() {loadPlay(char, opt1_txt)})
 
                     //choice 2
                 const opt2_txt = document.createTextNode(opts[1])
                 document.getElementById("play2").appendChild(opt2_txt)
-                document.getElementById("play2").addEventListener('click', function() {loadPlay(char, scene)})
+                document.getElementById("play2").addEventListener('click', function() {loadPlay(char, opt2_txt)})
 
                     //choice 3
                 const opt3_txt = document.createTextNode(opts[2])
                 document.getElementById("play3").appendChild(opt3_txt)
-                document.getElementById("play3").addEventListener('click', function() {loadPlay(char, scene)})
+                document.getElementById("play3").addEventListener('click', function() {loadPlay(char, opt3_txt)})
             }
         </script>
     </body>
