@@ -30,7 +30,7 @@ def getCharScene():
     char = request.args.get("c", default = "princess")
     scene = request.args.get("s", default = "1")
     # go into json file, loading json as dict
-    with open("www/static/assets/story.json", "r") as f:
+    with open("db/story.json", "r") as f:
         story = json.load(f)
     # get the char
     character = story[char]

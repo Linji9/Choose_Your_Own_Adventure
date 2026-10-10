@@ -7,7 +7,8 @@
     </head>
 
     <!-- somehow make this a template and "princess" will be replaced with template!-->
-    <body class="everyPageBackground" onload = "loadPlay('princess','Begin')">
+     <!-- make 1 "begin"-->
+    <body class="everyPageBackground" onload = "loadPlay('princess','1')">
         <nav>
             <div class="header_container">
                 <div class="mobile_header">
@@ -46,7 +47,8 @@
                 //character = princess;
 
                 //need to add encodingURL 
-                const res = await fetch("/play?c=p&s=1");
+                var url = `/play?c=${encodeURIComponent(char)}&s=${encodeURIComponent(lastChoice)}`;
+                const res = await fetch(url);
 
                 //converting to a JS object, equivalent of a dict
                 const sceneData = await res.json();
@@ -64,8 +66,8 @@
                 document.getElementById("playImg").setAttribute("src", play_img);
 
                  //getting Scenarios text from json file
-                const opts = sceneData["choices"].keys()
-                const nextScenes = sceneData["choices"].values()
+                const opts = Object.keys(sceneData["choices"])
+                const nextScenes = Object.values(sceneData["choices"])
                 
                     //choice 1
                 const opt1_txt = document.createTextNode(opts[0])
