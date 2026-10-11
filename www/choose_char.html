@@ -31,10 +31,14 @@
         
         <div class="buttons">
             <ul class="noCastle">
-                <li class = "char"><button class = "charButton" onclick="showImage('princess')">Princess Petunia</button></li>
-                <li class = "char" ><button class = "charButton" onclick="showImage('ken')">Paladin Ken</button></li>
+                <!-- <li class = "char"><button class = "charButton" onclick="showImage('princess')">Princess Petunia</button></li> -->
+                <li class = "char"><img class = "charButton" src = "static/img/CharButs/PrinBut.png" alt = "Choose Princess" onclick = "showImage('princess')"/> </li>
+                <li class = "char"><img class = "charButton" src = "static/img/CharButs/KenBut.png" alt = "Choose Ken" onclick = "showImage('ken')"/> </li>
+                <li class = "char"><img class = "charButton" src = "static/img/CharButs/DragBut.png" alt = "Choose Dragon" onclick = "showImage('dragon')"/> </li>
+                <li class = "char"><img class = "charButton" src = "static/img/CharButs/JestBut.png" alt = "Choose Jester" onclick = "showImage('jester')"/> </li>
+                <!-- <li class = "char" ><button class = "charButton" onclick="showImage('ken')">Paladin Ken</button></li>
                 <li class = "char"><button class = "charButton" onclick="showImage('dragon')"> Dragon</button> </li>
-                <li class = "char"><button class = "charButton" onclick="showImage('jester')">Jester</button></li>
+                <li class = "char"><button class = "charButton" onclick="showImage('jester')">Jester</button></li> -->
             </ul>
 
         <div class = "charImg reveal" id = "princess">
@@ -79,11 +83,13 @@
             <!-- <div>
                 <button onclick="firstPage(jester)"> <img src="filler"/> </button>
             </div> -->
-            <div>
+            <!-- <div>
                 <a ref="play?c=j&s=1"> <img src="static/img/jNext.png"/> </a>
-            </div>
+            </div> -->
             <button class="secretButton" onclick="changeJesterColor()"> </button>
         </div>
+
+         <div class = "depart_but"><a href = "play.html"><img src = "static/img/DepartSign.png"/></a></div>
 
         <script>
             function showImage(id) {

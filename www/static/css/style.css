@@ -286,10 +286,8 @@ ul.noCastle {
 
 li.char {
     display: flex;
-    border: 3px solid rgb(95, 42, 42);
     border-radius: 15px;
     padding: 10px;
-    background-color: rgb(244, 221, 221);
     box-sizing: border-box;
     width: 20%;
     justify-content: center;
@@ -302,15 +300,27 @@ li.char {
     cursor: pointer;
 
     width: 100%;
+    height: auto;
 
     font-family: "Garamond", serif;
-    font-size: 20px; 
+    font-size: 20px;
+}
 
-    
+.charButton:hover {
+    filter: brightness(130%)
+}
+
+/* button to begin story */
+.depart_but img{
+    height : 145px;
+    width : 250px;
+    display: block;
+    margin-left: auto;
+    margin-top: -60px;
 }
 
 /* makes buttons stack once the page gets too small */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
     ul.noCastle {
         display : flex;
         flex-wrap: wrap;
@@ -322,7 +332,17 @@ li.char {
     ul.noCastle li {
         width: 48%;
     }
+
+    .depart_but img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+        height: auto;
+        padding-top: 3%;
+    }
 }
+
 
 /* classes used to reveal and hide buttons*/
 .charImg{
