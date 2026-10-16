@@ -29,6 +29,8 @@ def hello():
 def getCharScene():
     char = request.args.get("c", default = "princess")
     scene = request.args.get("s", default = "1")
+    # go into json, find that key (text choice), return value
+    #then everything below here works as normal
     # go into json file, loading json as dict
     with open("db/story.json", "r") as f:
         story = json.load(f)

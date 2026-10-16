@@ -41,6 +41,13 @@
         <button id = "play3"></button>
 
         <script>
+            // toggle between hiding and showing the dropdown content
+            // from w3schools https://www.w3schools.com/howto/howto_js_dropdown.asp
+            function dropMenu() {
+                document.getElementById("navDropdown").classList.toggle("show");
+            }
+
+            // reload page when a choice is made
             async function loadPlay(char, lastChoice) {
                 //later, maybe we could make this page a template and use that to name this var?
                 // but also with it being an event listener maybe we don't need it
