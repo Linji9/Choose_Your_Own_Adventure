@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content = "width = device-width"/>
+        <title>The Neverending Adventure</title>
+        <link rel="stylesheet" href="/static/css/style.css"/>
+    </head>
+
+    <body class="everyPageBackground">
+        <nav>
+            <div class="header_container">
+                <div class="mobile_header">
+                    <img src="/static/img/newMobileHeader.png"/>
+                </div>
+                <div class="New_Header_Logo">
+                    <img src="/static/img/headerText.png"/>
+                </div>
+                <div class="HeaderNav">
+                    <div class="HeaderText">
+                        <!-- developed using w3schools https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown -->
+                        <button onclick="dropMenu()" class="DropdownBtn"> </button>
+                        <div id="navDropdown" class="DropdownContent">
+                            <a href= "/home.html">Home</a>
+                            <a href="/about.html">About Us!</a>
+                            <a href="https://www.canva.com/design/DAHULFmVmZ4/he5CpgfcdCciXI0MS4XsAA/edit" target="_blank">Design Process!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        {% block scene_results %}
+        {% endblock %}
+
+        <script>
+            function dropMenu() {
+                document.getElementById("navDropdown").classList.toggle("show");
+            }
+        </script>
+    </body>
+</html>

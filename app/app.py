@@ -13,18 +13,21 @@ def home():
 def hello():
     return "Hello, world!"
 
-# @app.route("/getCharScene/<char>/<scene>")
-# def getCharScene(char, scene):
-#     # go into json file, loading json as dict
-#     with open("www/static/assets/story.json", "r") as f:
-#         story = json.load(f)
-#     # get the char
-#     character = story[char]
-#     # dive in further and get the json file associated with scene 
-#     scenario = character[scene]
-#     thatJSONfile = jsonify(scenario)
-#     return thatJSONfile
+# for template
+@app.route("/scene/<char>/<scene>")
+def get_SceneData(char, scene):
 
+    with open("db/story.json", "r") as f:
+        story = json.load(f)
+    # get the char
+    FullCharStory = story[char]
+    # dive in further and get the json file associated with scene 
+    ActiveScenario = FullCharStory[scene]
+
+    return render_template("scene.html", char = char, sceneData = ActiveScenario)
+
+
+# for ajax
 @app.route("/play")
 def getCharScene():
     char = request.args.get("c", default = "princess")
