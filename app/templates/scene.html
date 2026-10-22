@@ -1,22 +1,35 @@
 {% extends 'base.html' %}
 
 {% block scene_results %}
+<div class = "scene">
+<div class="noChoices">
+    <div class="storyDescAndImage">
+        <!-- getting scene description -->
+        <h2 class = "storyDescAndQ"> {{ sceneData['description'] }} </h2>
 
-<!-- getting scene description -->
-<p> {{ sceneData['description'] }} </p>
+        <!-- getting scene image -->
+        <img class = "storyImg" src = "{{ sceneData['image'] }}"/>
+    </div>
 
-<!-- getting scene question -->
-<p> {{ sceneData['question'] }} </p>
+    <div>
+        <!-- getting scene question -->
+        <h2 class = "storyDescAndQ"> {{ sceneData['question'] }} </h2>
+    </div>
+</div>
 
-<!-- getting scene image -->
-<img src = "{{ sceneData['image'] }}"/> 
-
+<div class = "choices">
 <!-- looping through each choice -->
 {% for key, value in sceneData['choices'].items() %}
 
-<!-- creating a button for each choice that will lead to the next scene when clicked -->
-<a class = "choiceBut" href = "/scene/{{char}}/{{value}}"> {{ key }} </a>
-
+    <!-- creating a button for each choice that will lead to the next scene when clicked -->
+    <div class = "choiceTextCont">
+        <img class = "choiceButtonImg" src="/static/img/choiceButton.png"/>
+        <span>
+            <a class = "choiceButtonText" href = "/scene/{{char}}/{{value}}"> {{ key }} </a>
+        </span>
+    </div>
 {% endfor %}
+</div>
+</div>
 
 {% endblock %}

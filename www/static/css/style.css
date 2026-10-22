@@ -312,11 +312,12 @@ li.char {
 
 /* button to begin story */
 .depart_but img{
-    height : 145px;
+    height : auto;
     width : 250px;
     display: block;
-    margin-left: auto;
-    margin-top: -60px;
+    position: absolute;
+    bottom: -120px;
+    right: 50px;
 }
 
 /* makes buttons stack once the page gets too small */
@@ -376,6 +377,7 @@ div.charImg.reveal.color {
     }
 }
 
+
 /*changes font for each character*/
 #princess p{
     font-family: "Moon Dance", cursive;
@@ -425,4 +427,113 @@ div.charImg.reveal.color {
   padding: 16px;
   background-color: transparent;
   border: none;
+}
+
+.scene {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.storyDescAndImage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.storyDescAndQ{
+    justify-content: center;
+    padding: 50px;
+    text-align: center;
+}
+
+.storyImg {
+    width: 60%;
+    height: auto;
+}
+
+.choices {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+}
+
+.choiceImg {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 8px 16px;
+}
+
+.choiceTextCont {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 15px 80px 15px;
+    width: 350px;
+}
+
+.choiceButtonText {
+    position: absolute;
+    
+    left: 18%;
+    right: 18%;
+    top: 25%;
+    bottom: 73%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Garamond", serif;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.15em;
+    text-align: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+
+.choiceButtonImg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 790px) {
+    .choiceTextCont {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 15px 20px 15px;
+        width: 350px;
+    }
+
+    .choiceButtonText {
+    position: absolute;
+    
+    left: 18%;
+    right: 18%;
+    top: 25%;
+    bottom: 45%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Garamond", serif;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.15em;
+    text-align: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
 }

@@ -3,7 +3,7 @@
         "1" : {
             "description" : "You are staring out of your high tower window, watching the royal guards patrol the courtyard below, while holding a bag of packed travel clothes.",
             "question" : "How do you escape the castle walls?",
-            "image" : "/static/img/p1",
+            "image" : "/static/img/princess_scenes/p1.png",
             "choices" : {
                 "Toss a knotted bedsheet rope out the window and climb down into the royal gardens." : "2.1",
                 "Bribe the castle gatekeeper with your spare gold jewelry to look the other way" : "2.2",
