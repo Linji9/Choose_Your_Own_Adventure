@@ -473,7 +473,7 @@ div.charImg.reveal.color {
     align-items: center;
     justify-content: center;
     padding: 0px 15px 80px 15px;
-    width: 350px;
+    width: 425px;
 }
 
 .choiceButtonText {
@@ -482,7 +482,7 @@ div.charImg.reveal.color {
     left: 18%;
     right: 18%;
     top: 25%;
-    bottom: 73%;
+    bottom: 65%;
 
     display: flex;
     align-items: center;
@@ -505,7 +505,7 @@ div.charImg.reveal.color {
     height: auto;
 }
 
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 900px) {
     .choiceTextCont {
         position: relative;
         display: inline-flex;

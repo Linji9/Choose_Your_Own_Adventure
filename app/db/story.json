@@ -13,7 +13,7 @@
         "2.1" : {
             "description" : "You brush past tangled vines and find a lost royal guard sitting on a mossy stone, weeping over a broken compass, and ignoring his duties.",
             "question" : "How do you handle this unexpected obstacle?",
-            "image" : "/static/img/p2.1",
+            "image" : "/static/img/princess_scenes/p2.1.png",
             "choices" : {
                 "Offer him a comforting word and a silk handkerchief and flee." : "3.1",
                 "Demand he give you directions to the exit immediately." : "3.1",
@@ -23,7 +23,7 @@
         "2.2" : {
             "description" : "You duck behind a row of colorful vendor tents, bump into a pile of silk rugs, and notice a merchant selling glowing trinkets.",
             "question" : "What catches your royal eye in the shadows?",
-            "image" : "/static/img/p2.2",
+            "image" : "/static/img/princess_scenes/p2.2.png",
             "choices" : {
                 "Inspect a silver locket humming with magical energy. You open the locket and a dust covers your eyes." : "3.2",
                 "Buy a suspicious glowing apple with your spare gold and run towards the forest." : "3.2",
@@ -33,7 +33,7 @@
         "2.3" : {
             "description" : "You wander down the damp stone corridor, step over a puddle of murky water, and hear a strange clanking noise coming from an open jail cell.",
             "question" : "What is your next move in the dark?",
-            "image" : "/static/img/p2.3",
+            "image" : "/static/img/princess_scenes/p2.3.png",
             "choices" : {
                 "Crawl through the vent to your left" : "3.2",
                 "Call out with your most authoritative royal voice and demand to know where the exit is." : "3.1",
@@ -247,7 +247,7 @@
         "1" : {
             "description" : "You are resting comfortably atop a massive pile of sparkling gold coins in your cozy mountain cave, listening to the wind howl outside.",
             "question" : "What disturbs your peaceful afternoon nap?",
-            "image" : "/static/img/d1",
+            "image" : "/static/img/dragon_scenes/d1.png",
             "choices" : {
                 "RAWR!" : "2.1",
                 "Rawr..." : "2.2",
@@ -257,7 +257,7 @@
         "2.1" : {
             "description" : "You spot a nervous traveler dropping their supplies on the cliff path, screaming in terror, and running away.",
             "question" : "What do you do with the abandoned goods?",
-            "image" : "/static/img/d2.1",
+            "image" : "/static/img/dragon_scenes/d2.1.png",
             "choices" : {
                 "Rawrrrr" : "3.1",
                 "RAWR RAWR" : "3.1",
@@ -267,7 +267,7 @@
         "2.2" : {
             "description" : "The smell of roasted treats draws you toward a busy merchant tent, causing the crowd to scatter in panic, and leaving the food unguarded.",
             "question" : "How do you secure your afternoon snack?",
-            "image" : "/static/img/d2.2",
+            "image" : "/static/img/dragon_scenes/d2.2.png",
             "choices" : {
                 "RAWR RAWR RAWR RAWR" : "3.2",
                 "rawrrrrrr" : "3.2",
@@ -277,7 +277,7 @@
         "2.3" : {
             "description" : "The narrow cave crack opens up into a damp chamber beneath the earth, smelling of old iron, and echoing with dripping water.",
             "question" : "How do you navigate this tiny human cave?",
-            "image" : "/static/img/d2.3",
+            "image" : "/static/img/dragon_scenes/d2.3.png",
             "choices" : {
                 "rawr" : "3.1",
                 "Rawr rawr" : "3.2",
