@@ -19,12 +19,26 @@ def get_SceneData(char, scene):
 
     with open("db/story.json", "r") as f:
         story = json.load(f)
-    # get the char
-    FullCharStory = story[char]
-    # dive in further and get the json file associated with scene 
-    ActiveScenario = FullCharStory[scene]
 
-    return render_template("scene.html", char = char, sceneData = ActiveScenario)
+    try:
+        float(scene)
+        # float(scene) worked
+        IsEnding = False
+    except (ValueError, TypeError):
+        # float(scene) failed
+        IsEnding = True
+
+    if not IsEnding:
+        # get the char
+        FullCharStory = story[char]
+        # dive in further and get the json file associated with scene 
+        ActiveScenario = FullCharStory[scene]
+        return render_template("scene.html", char = char, sceneData = ActiveScenario)
+    
+    else:
+        allEndings = story["endings"]
+        ActiveScenario = allEndings[scene]
+        return render_template("ending.html", sceneData = ActiveScenario)
 
 
 # for ajax

@@ -1,0 +1,20 @@
+
+    {% extends 'base.html' %}
+
+    {% block scene_results %}
+
+    <div class = "scene">
+    <div class="noChoices">
+        <div class="storyDescAndImage">
+
+            <h2 class = "storyDescAndQ"> {{ sceneData['title'] }}</h2>
+
+            <img class = "storyImg" src = " {{ sceneData['image'] }} "/>
+
+            <h2 class = "storyDescAndQ"> {{ sceneData['_comment'] }} </h2>
+
+        </div>
+    </div>
+    </div>
+
+    {% endblock %}
