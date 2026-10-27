@@ -226,7 +226,7 @@ p {
     .Background {
     background-image: url(../img/TNEA_Background.png);
     background-repeat: no-repeat;
-    background-position: left top;
+    background-position: -210px top;
     background-size: cover;
     background-attachment: scroll;
     height: 100vh;
@@ -315,6 +315,15 @@ li.char {
     height : auto;
     width : 250px;
     display: flex;
+    padding: 40px;
+}
+
+.descAndDepart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
 }
 
 /* makes buttons stack once the page gets too small */
@@ -339,6 +348,13 @@ li.char {
         height: auto;
         padding-top: 3%;
     }
+    .descAndDepart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 }
 
 
@@ -430,15 +446,19 @@ div.charImg.reveal.color {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .storyDescAndImage {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .storyDescAndQ{
+    display: flex;
     justify-content: center;
     padding: 50px;
     text-align: center;
@@ -449,6 +469,19 @@ div.charImg.reveal.color {
     height: auto;
 }
 
+@media screen and (max-width: 700px) {
+    .storyDescAndQ{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+    }
+    .storyImg {
+    width: 90%;
+    height: auto;
+}
+}
 .choices {
     display: flex;
     flex-direction: row;
@@ -470,6 +503,7 @@ div.charImg.reveal.color {
     background-image: url(../img/choiceButton.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    box-sizing: border-box;
 
     margin: 20px;
     margin-bottom: 40px;
@@ -479,7 +513,7 @@ div.charImg.reveal.color {
     color: black;
     font-weight: bold;
     font-size: 1.15em;
-    width: 300px;
+    width: 350px;
     text-align: center;
     word-wrap: break-word;
     overflow-wrap: break-word;
@@ -489,9 +523,11 @@ div.charImg.reveal.color {
 @media screen and (max-width: 900px) {
     .choices {
         flex-direction: column;
+        align-items: center;
     }
-    .choiceButton {
+    .choiceButtonText {
         flex-direction: column;
-        width: stretch;
+        min-height: 150px;
+        font-size: 1.25em;
     }
 }
