@@ -22,12 +22,10 @@
 {% for key, value in sceneData['choices'].items() %}
 
     <!-- creating a button for each choice that will lead to the next scene when clicked -->
-    <div class = "choiceTextCont">
-        <img class = "choiceButtonImg" src="/static/img/choiceButton.png"/>
-        <span>
-            <a class = "choiceButtonText" href = "/scene/{{char}}/{{value}}"> {{ key }} </a>
-        </span>
+    <div class = "choiceButton">
+        <a class = "choiceButtonText" href = "/scene/{{char}}/{{value}}"> {{ key }} </a>
     </div>
+
 {% endfor %}
 </div>
 </div>
