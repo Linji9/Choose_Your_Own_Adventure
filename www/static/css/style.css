@@ -230,7 +230,7 @@ p {
     width: 100vw;
 }
 
-/* MARK: MobileHomeIMG */
+/* MARK: MobHomeIMG */
 @media screen and (max-width: 650px) {
     .Background {
     background-image: url(../img/TNEA_Background.png);
@@ -330,7 +330,7 @@ li.char {
     right: 50px;
 }
 
-/* MARK:MobileChooseChar */
+/* MARK:MobChooseChar */
 /* makes buttons stack once the page gets too small */
 @media screen and (max-width: 768px) {
     ul.noCastle {
