@@ -277,7 +277,7 @@
         "2.3" : {
             "description" : "The narrow cave crack opens up into a damp chamber beneath the earth, smelling of old iron, and echoing with dripping water.",
             "question" : "How do you navigate this tiny human cave?",
-            "image" : "/static/img/dragon_scenes/d2.3.png",
+            "image" : "/static/img/d2.3",
             "choices" : {
                 "rawr" : "3.1",
                 "Rawr rawr" : "3.2",
