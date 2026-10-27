@@ -1,8 +1,9 @@
+/* MARK:FontsImport */
 @import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
 
+/* MARK: BasicCSS */
 body {
     font-family: sans-serif;
     padding: 0;
@@ -39,6 +40,7 @@ p {
 }
 
 /* New Header Layout/Design below*/
+/* MARK: NewHeaderDesign */
 .New_Header_Logo {
     display: flex;
     justify-content: center;
@@ -85,6 +87,7 @@ p {
     Developed from w3schools example:
     https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown
 */
+/* MARK: DropDownButton */
 .DropdownBtn {
   padding: 16px;
   border: none;
@@ -103,6 +106,7 @@ p {
   background-color: rgb(95, 42, 42);
 }
 
+/* MARK:DropDownContent */
 .DropdownContent {
   display: none;
   position: absolute;
@@ -123,6 +127,7 @@ p {
 .DropdownContent a:hover {background-color: rgb(246, 179, 179);}
 .show {display: block;}
 
+/* MARK: MobilHeader */
 @media screen and (max-width: 700px) {
 .mobile_header {
     display: flex;
@@ -158,6 +163,7 @@ p {
 }
 
 /* For Nav Bar*/
+/* MARK: NavBar */
 .Castle{
     font-family: "Garamond", serif;
     list-style-type: "🏰";
@@ -192,6 +198,7 @@ p {
     height: auto;
 }
 
+/* MARK: Start&Menu But */
 .start_button {
     width: 150px;
     display: block;
@@ -212,6 +219,7 @@ p {
     height: auto;
 }
 
+/* MARK: HomeIMG */
 .Background {
     background-image: url(../img/TNEA_Background.png);
     background-repeat: no-repeat;
@@ -222,6 +230,7 @@ p {
     width: 100vw;
 }
 
+/* MARK: MobileHomeIMG */
 @media screen and (max-width: 650px) {
     .Background {
     background-image: url(../img/TNEA_Background.png);
@@ -272,6 +281,7 @@ p {
 }
 
 /* for character choose sheet below */
+/* MARK: ChooseCharHTML */
 ul.noCastle {
     display: flex;
     justify-content: space-between;
@@ -320,6 +330,7 @@ li.char {
     right: 50px;
 }
 
+/* MARK:MobileChooseChar */
 /* makes buttons stack once the page gets too small */
 @media screen and (max-width: 768px) {
     ul.noCastle {
@@ -346,6 +357,7 @@ li.char {
 
 
 /* classes used to reveal and hide buttons*/
+/* MARK: JSRevealChar */
 .charImg{
     display: none;
 }
@@ -367,6 +379,7 @@ div.charImg.reveal.color {
     background-color: rgb(141, 243, 16);
 }
 
+/* MARK: MobileCharIMG */
 /* adjusts so picture and text stacks when screen is too small */
 @media screen and (max-width: 700px) {
     div.charImg.reveal {
@@ -378,6 +391,7 @@ div.charImg.reveal.color {
 }
 
 
+/* MARK: CharFonts */
 /*changes font for each character*/
 #princess p{
     font-family: "Moon Dance", cursive;
@@ -400,6 +414,8 @@ div.charImg.reveal.color {
     font-family: "Kablammo", cursive;
     font-size: x-large;
 }
+
+/* MARK: PageBG */
 .everyPageBackground {
     background-image: url(../img/pageBackground.png), url(../img/mobileBackground.png);
     background-repeat: no-repeat, repeat-y;
@@ -410,6 +426,7 @@ div.charImg.reveal.color {
     width: 100%;
 }
 
+/* MARK: MobilePageBG */
 @media screen and (max-width: 700px) {
     .everyPageBackground{
     background-image: url(../img/mobileBackground.png);
@@ -429,6 +446,7 @@ div.charImg.reveal.color {
   border: none;
 }
 
+/* MARK: CharPlayCSS */
 .scene {
     display: flex;
     flex-direction: column;
@@ -505,6 +523,7 @@ div.charImg.reveal.color {
     height: auto;
 }
 
+/* MARK: MobilePlayCSS */
 @media screen and (max-width: 900px) {
     .choiceTextCont {
         position: relative;
