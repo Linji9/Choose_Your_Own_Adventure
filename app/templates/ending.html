@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block scene_results %}
+<p> {{ sceneData['title'] }}</p>
+
+<p> {{ sceneData['_comment'] }} </p>
+
+<img src = " {{ sceneData['image'] }} "/>
+
+{% endblock %}
