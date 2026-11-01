@@ -43,7 +43,7 @@
         "3.1" : {
             "description" : "You approach a sparkling river where the water is flowing completely backwards, and suddenly a heavily armored knight crashes through the bushes on a panting horse, shouting about an emergency. You are forced to team up to cross this broken stream thing.",
             "question" : "What is your next move as companions?",
-            "image" : "/static/img/p3.1",
+            "image" : "/static/img/princess_scenes/p3.1.png",
             "choices" : {
                 "Jump across the floating rocks that seem to be flickering in and out of existence." : "4.1",
                 "Try to talk to the frozen fish suspended in midair to see if it knows a way across." : "4.1",
@@ -53,7 +53,7 @@
         "3.2" : {
             "description" : "You find a clearing where a giant block of cheese is hovering in the air, and the knight stumbles out from the trees right beside you, muttering about corrupted game files. You are stuck handling this weird dairy anomaly together.",
             "question" : "What is your next move as a team?",
-            "image" : "/static/img/p3.2",
+            "image" : "/static/img/princess_scenes/p3.2.png",
             "choices" : {
                 "Take a small bite of the floating cheese to see if it gives you magic powers or something." : "4.2",
                 "Ask the knight to slash the cheese block with his broadsword." : "4.2",
@@ -63,7 +63,7 @@
         "4.1" : {
             "description" : "After navigating the glitchy river, you and the knight reach an old stone bridge, but the middle section is completely missing, leaving floating code text in its place while the game background stutters.",
             "question" : "How do you cross this unrendered gap?",
-            "image" : "/static/img/p4.1",
+            "image" : "/static/img/princess_scenes/p4.1.png",
             "choices" : {
                 "Have the knight use his heavy shield to bridge the digital gap while you tiptoe across." : "5.1",
                 "Try to step directly onto the floating code text like invisible solid stairs." : "5.2",
@@ -73,7 +73,7 @@
         "4.2" : {
             "description" : "Escaping the floating cheese anomaly, you and the knight find yourselves in a forest where the trees are repeating the exact same looping texture and a developer's error message flickers in the sky.",
             "question" : "How do you escape this copy-pasted glitch zone?",
-            "image" : "/static/img/p4.2",
+            "image" : "/static/img/princess_scenes/p4.2.png",
             "choices" : {
                 "Follow the repeating pattern until you find a seam where the world breaks open." : "5.1",
                 "Shout complaints up at the flickering error message to demand a system reboot." : "5.2",
@@ -83,7 +83,7 @@
         "5.1" : {
             "description" : "As you attempt to cross the unrendered gap, a massive scaly tail crashes through the digital boundary, and a fierce dragon drops right into your path, roaring about corrupted territory. The knight draws his sword, but you realize the beast is just as trapped in this glitchy world as you are.",
             "question" : "How do you welcome your new fiery team member?",
-            "image" : "/static/img/p5.1",
+            "image" : "/static/img/princess_scenes/p5.1.png",
             "choices" : {
                 "Offer the dragon a piece of safe travel rations to show you come in peace." : "6.1",
                 "Ask the knight to negotiate a temporary alliance with the beast against the developers." : "6.2",
@@ -93,7 +93,7 @@
         "5.2" : {
             "description" : "While fighting through the looping forest zone, a massive dragon suddenly bursts through the copy-pasted trees, shaking the ground and breathing fiery warning signals. Instead of attacking, the creature nods in frustration at the broken code surrounding you all.",
             "question" : "How do you handle this unexpected beastly encounter?",
-            "image" : "/static/img/p5.2",
+            "image" : "/static/img/princess_scenes/p5.2.png",
             "choices" : {
                 "Point toward the flickering error message in the sky to show the dragon who the real enemy is." : "6.2",
                 "Hide behind the knight while the dragon inspects your travel clothes." : "6.1",
@@ -103,7 +103,7 @@
         "6.1" : {
             "description" : "With the dragon now part of your squad, your trio marches toward the edge of the game map, only for a tumbling jester to suddenly fall straight out of the sky, juggling floating warning pop-ups and shouting riddles in multiple languages.",
             "question" : "How do you greet the chaotic new arrival?",
-            "image" : "/static/img/p6.1",
+            "image" : "/static/img/princess_scenes/p6.1.png",
             "choices" : {
                 "Ask the jester to translate what the dragon has been roaring this entire time." : "best_ending",
                 "Catch one of the jester's floating warning pop-ups before it hits the ground." : "half_agreement",
@@ -113,7 +113,7 @@
         "6.2" : {
             "description" : "Your trio of princess, knight, and dragon stops as a brightly colored jester cartwheels out from a hidden debug door in the digital floor, immediately beginning to translate the dragon's roars into hilarious complaints about the game's developers.",
             "question" : "How do you respond to the jester's sudden translation revelation?",
-            "image" : "/static/img/p6.2",
+            "image" : "/static/img/princess_scenes/p6.2.png",
             "choices" : {
                 "Laugh along with the jester and embrace the fourth-wall break." : "best_ending",
                 "Ask the jester how to hack into the developer files to save the game." : "half_agreement",
@@ -125,7 +125,7 @@
         "1" : {
             "description" : "You are sitting in the sunny castle courtyard polishing your breastplate while your trusty steed munches on clover nearby.",
             "question" : "What is your immediate priority before setting out on your quest?",
-            "image" : "/static/img/pal1",
+            "image" : "/static/img/paladin_scenes/pal1.png",
             "choices" : {
                 "Mount your steed and gallop straight toward the Whispering Woods." : "2.1",
                 "Stop by the castle armory to swap your broadsword for a lighter, sharper blade." : "2.2",
@@ -135,7 +135,7 @@
         "2.1" : {
             "description" : "Your trusty steed stops abruptly as a lost royal guard stumbles out from behind a thick oak tree, looking completely panicked, and dropping his shield.",
             "question" : "How do you address the frightened man?",
-            "image" : "/static/img/pal2.1",
+            "image" : "/static/img/paladin_scenes/pal2.1.png",
             "choices" : {
                 "Draw your sword defensively as a bluff, then run the opposite direction." : "3.1",
                 "Ignore him and continue your journey." : "3.1",
@@ -145,7 +145,7 @@
         "2.2" : {
             "description" : "You tie your horse to a wooden post, adjust your heavy armor, and walk up to a merchant tent displaying polished weaponry.",
             "question" : "How do you prepare for the journey ahead?",
-            "image" : "/static/img/pal2.2",
+            "image" : "/static/img/paladin_scenes/pal2.2.png",
             "choices" : {
                 "Purchase a shiney new set of armour. Set off on your journey." : "3.2",
                 "Question the merchant about local outlaws in the area. Mount your steed and follow the lead." : "3.2",
@@ -155,7 +155,7 @@
         "2.3" : {
             "description" : "Your heavy armor clanks loudly as you navigate the narrow hedge paths, push aside heavy branches, and find a hidden staircase leading underground.",
             "question" : "How do you approach the mysterious stairs?",
-            "image" : "/static/img/pal2.3",
+            "image" : "/static/img/paladin_scenes/pal2.3.png",
             "choices" : {
                 "Descend the stone steps bravely into the darkness." : "3.1",
                 "Turn around. You didn't sign up for this." : "3.1",
@@ -165,7 +165,7 @@
         "3.1" : {
             "description" : "You ride up to a river where your horse gets scared because the water is flowing upside down, and out pops a princess holding travel clothes who demands you help her figure out this strange magic. You must now work together to cross.",
             "question" : "What is your next move as companions?",
-            "image" : "/static/img/pal3.1",
+            "image" : "/static/img/paladin_scenes/pal3.1.png",
             "choices" : {
                 "Force your horse to step on the weird flickering rocks to cross." : "3.2",
                 "Poke the frozen fish with your sword to see if it breaks the spell alongside the princess." : "4.1",
@@ -175,7 +175,7 @@
         "3.2" : {
             "description" : "You march into a forest clearing and discover a massive block of cheddar floating in the sky, only to find the princess already poking it with a stick. You have to team up to vanquish this hovering dairy threat.",
             "question" : "What is your next move as a team?",
-            "image" : "/static/img/pal3.2",
+            "image" : "/static/img/paladin_scenes/pal3.2.png",
             "choices" : {
                 "Slash the cheese block with your sword while the princess cheers you on." : "4.2",
                 "Throw a rock at it and run away with the princess before the cheese can retaliate." : "4.2",
@@ -185,7 +185,7 @@
         "4.1" : {
             "description" : "After navigating the glitchy river, you and the princess reach an old stone bridge, but the middle section is completely missing, leaving floating code text in its place while the game background stutters.",
             "question" : "How do you cross this unrendered gap?",
-            "image" : "/static/img/pal4.1",
+            "image" : "/static/img/paladin_scenes/pal4.1.png",
             "choices" : {
                 "Use your heavy shield to bridge the digital gap while the princess tiptoes across." : "5.1",
                 "Try to step directly onto the floating code text like invisible solid stairs." : "5.2",
@@ -195,7 +195,7 @@
         "4.2" : {
             "description" : "Escaping the floating cheese anomaly, you and the princess find yourselves in a forest where the trees are repeating the exact same looping texture and a developer's error message flickers in the sky.",
             "question" : "How do you escape this copy-pasted glitch zone?",
-            "image" : "/static/img/pal4.2",
+            "image" : "/static/img/paladin_scenes/pal4.2.png",
             "choices" : {
                 "Follow the repeating pattern until you find a seam where the world breaks open." : "5.1",
                 "Shout complaints up at the flickering error message to demand a system reboot." : "5.2",
@@ -205,7 +205,7 @@
         "5.1" : {
             "description" : "As you attempt to cross the unrendered gap, a massive dragon drops out of the sky code and lands right before your horse, hissing and breathing hot smoke. Instead of fighting, you realize it is just another glitch victim looking for allies.",
             "question" : "How do you address the towering beast?",
-            "image" : "/static/img/pal5.1",
+            "image" : "/static/img/paladin_scenes/pal5.1.png",
             "choices" : {
                 "Lower your broadsword and offer a respectful nod of tactical alliance." : "6.1",
                 "Ask the princess to calm the dragon while you secure the perimeter." : "6.2",
@@ -215,7 +215,7 @@
         "5.2" : {
             "description" : "While navigating the looping forest zone, a dragon crashes through the digital canopy, shaking its head in confusion at the broken environment. It joins your group, eager to find out who programmed such a messy world.",
             "question" : "How do you incorporate the dragon into your squad?",
-            "image" : "/static/img/pal5.2",
+            "image" : "/static/img/paladin_scenes/pal5.2.png",
             "choices" : {
                 "Assign the dragon to scout ahead for more rendering errors." : "6.2",
                 "Have your steed share some clover with the scaly newcomer." : "6.1",
@@ -225,7 +225,7 @@
         "6.1" : {
             "description" : "With the dragon now guarding your flank, a jester tumbles out of a dimensional rift in the air, juggling error logs and speaking in cryptic, multilingual rhymes.",
             "question" : "How do you interact with the newly arrived jester?",
-            "image" : "/static/img/pal6.1",
+            "image" : "/static/img/paladin_scenes/pal6.1.png",
             "choices" : {
                 "Listen closely as the jester successfully translates the dragon's roars." : "best_ending",
                 "Draw your weapon defensively against the jester's chaotic energy." : "cozy_loop",
@@ -235,7 +235,7 @@
         "6.2" : {
             "description" : "Your expanded team of four pauses as the jester bounds forward, effortlessly translating the dragon's fierce growls into brilliant tactical insights about the game developers.",
             "question" : "What is your next command as paladin leader?",
-            "image" : "/static/img/pal6.2",
+            "image" : "/static/img/paladin_scenes/pal6.2.png",
             "choices" : {
                 "Acknowledge the jester's brilliance and prepare for the final mission." : "best_ending",
                 "Inspect the jester's funny hat for hidden developer tracking devices." : "half_agreement",
@@ -287,7 +287,7 @@
         "3.1" : {
             "description" : "The cave wall is split between real stone and a jarring gray checkerboard grid of missing textures.",
             "question" : "How do you fix this broken wall?",
-            "image" : "/static/img/d3.1",
+            "image" : "/static/img/dragon_scenes/d3.1.png",
             "choices" : {
                 "RAWR-RAWR!" : "4.1",
                 "Rawrrr..." : "4.1",
@@ -297,7 +297,7 @@
         "3.2" : {
             "description" : "Your own roar echoes back at you two full seconds late, completely out of sync with the laws of physics.",
             "question" : "How do you fix your lagging voice?",
-            "image" : "/static/img/d3.2",
+            "image" : "/static/img/dragon_scenes/d3.2.png",
             "choices" : {
                 "RAWR?! *cough*" : "4.2",
                 "RAW今天是RRR!" : "4.2",
@@ -307,7 +307,7 @@
         "4.1" : {
             "description" : "Your fiery breath melted the checkerboard pixels, but now glowing pink error warning lines are buzzing across the cavern floor.",
             "question" : "What do you do with the buzzing warning grid?",
-            "image" : "/static/img/d4.1",
+            "image" : "/static/img/dragon_scenes/d4.1.png",
             "choices" : {
                 "RAWR-SMASH!" : "5.1",
                 "Rawr! *fly up*" : "5.1",
@@ -317,7 +317,7 @@
         "4.2" : {
             "description" : "Your shadow has completely detached from your body and is wandering off independently into a strange camp where two humans are arguing.",
             "question" : "How do you handle your runaway shadow?",
-            "image" : "/static/img/d4.2",
+            "image" : "/static/img/dragon_scenes/d4.2.png",
             "choices" : {
                 "RAWR! *chase shadow*" : "5.2",
                 "Rawr... *follow lag*" : "5.1",
@@ -327,7 +327,7 @@
         "5.1" : {
             "description" : "After breaking through the map barriers, you crash straight into a princess and a paladin who are struggling to cross a broken bridge. Instead of fighting them, you realize they are fellow game characters trying to survive this messy software.",
             "question" : "How do you introduce yourself to the royal duo?",
-            "image" : "/static/img/d5.1",
+            "image" : "/static/img/dragon_scenes/d5.1.png",
             "choices" : {
                 "RAWR!" : "6.1",
                 "Rawr..." : "6.2",
@@ -337,7 +337,7 @@
         "5.2" : {
             "description" : "Following your runaway shadow, you stumble into a forest clearing where a princess and a paladin are arguing with a floating block of cheese. They look up in absolute shock as you land beside them.",
             "question" : "How do you offer your assistance to the stranded pair?",
-            "image" : "/static/img/d5.2",
+            "image" : "/static/img/dragon_scenes/d5.2.png",
             "choices" : {
                 "Grrr-rawr!" : "6.2",
                 "Rawr!" : "6.1",
@@ -347,7 +347,7 @@
         "6.1" : {
             "description" : "Now traveling alongside the princess and paladin, your group is suddenly intercepted by a tumbling jester who drops from the ceiling and instantly starts translating your roars into fluent english for the confused royals.",
             "question" : "How do you react to someone finally understanding your roar language?",
-            "image" : "/static/img/d6.1",
+            "image" : "/static/img/dragon_scenes/d6.1.png",
             "choices" : {
                 "RAWR!" : "best_ending",
                 "Rawr..." : "half_agreement",
@@ -357,7 +357,7 @@
         "6.2" : {
             "description" : "As your trio works together with the newly arrived jester translating your every fiery word, the full team is officially assembled and ready to breach the developer console.",
             "question" : "What is your final roar before heading to the finale?",
-            "image" : "/static/img/d6.2",
+            "image" : "/static/img/dragon_scenes/d6.2.png",
             "choices" : {
                 "RAWR RAWR!" : "best_ending",
                 "Grrr..." : "drucker_saved",
@@ -369,7 +369,7 @@
         "1" : {
             "description" : "A crown of gold and face of stone, while bells are ringing all alone. Three flying pins in golden light, yet mock the monarch's cheerless sight.",
             "question" : "What clever trick shall win the crowd, and make the silent sovereign loud?",
-            "image" : "/static/img/j1",
+            "image" : "/static/img/jester_scenes/j1.png",
             "choices" : {
                 "A pastry hurled with speedy grace, right in the solemn counselor's face, to seek the woods and running space!" : "2.1",
                 "A squeaking fowl of rubber skin, a tumbling leap where mazes spin" : "2.2",
@@ -379,7 +379,7 @@
         "2.1" : {
             "description" : "Where shadows dance and green things grow, a tumbling fool seeks path to go, and jagged stones sit in a row.",
             "question" : "Which silly step will break the trance and lead me to the fairy dance?",
-            "image" : "/static/img/j2.1",
+            "image" : "/static/img/jester_scenes/j2.1.png",
             "choices" : {
                 "I climb the rocky ledge so high!" : "3.1",
                 "I follow roots where beetles lie!" : "3.2",
@@ -389,7 +389,7 @@
         "2.2" : {
             "description" : "A maze of green with walls so high, where lost men sit and softly sigh, while twisted vines block out the sky.",
             "question" : "A shining shield in armor bright, or weeping soul is in your sight?",
-            "image" : "/static/img/j2.2",
+            "image" : "/static/img/jester_scenes/j2.2.png",
             "choices" : {
                 "I walk right up and tap his head, get out he said." : "3.1",
                 "I leap the hedge and flee instead." : "3.2",
@@ -399,7 +399,7 @@
         "2.3" : {
             "description" : "Down below where water drips, and iron bars seal quiet lips, a shadow past the doorway slips.",
             "question" : "A stony door or echoing hall, which secret answers when you call?",
-            "image" : "/static/img/j2.3",
+            "image" : "/static/img/jester_scenes/j2.3.png",
             "choices" : {
                 "I pick the lock with flower stems." : "3.1",
                 "I slip through bars like polished gems." : "3.2",
@@ -409,7 +409,7 @@
         "3.1" : {
             "description" : "“A funny joke is hard to tell, when half the words don't even spel.” (Translation: You try to juggle but one of your bowling pins just disappears into thin air with a loud pop sound.)",
             "question" : "“Where did it go I cannot say, the magic simply broke today.” (Translation: How do you perform with missing props?)",
-            "image" : "/static/img/j3.1",
+            "image" : "/static/img/jester_scenes/j3.1.png",
             "choices" : {
                 "I will pretend it still is there, and juggle empty chunks of air!" : "4.1",
                 "I shout a joke about the glitch, and tumble in a funny ditch!" : "4.1",
@@ -419,7 +419,7 @@
         "3.2" : {
             "description" : "“The king is mad the queen is sad, and my shoes are sinking in the pad.” (Translation: You are walking but your feet keep clipping through the solid stone floor like it is made of water.)",
             "question" : "“A sinking fool is no ones prize, so how do I get back to rise?” (Translation: How do you stop falling through the map?)",
-            "image" : "/static/img/j3.2",
+            "image" : "/static/img/jester_scenes/j3.2.png",
             "choices" : {
                 "I pull my knees up to my chest, and hope the floor will do its best!" : "4.2",
                 "I bounce my head against the roof, to give gravity some proof!" : "4.2",
@@ -429,7 +429,7 @@
         "4.1" : {
             "description" : "“My juggling failed, my props are gone, yet floating text keeps scrolling on!” (Translation: Pretending to juggle air caused the empty space to spawn floating warning pop-ups that block your vision.)",
             "question" : "“How do I pop these words of red, and keep them from my silly head?” (Translation: How do you clear the error pop-ups?)",
-            "image" : "/static/img/j4.1",
+            "image" : "/static/img/jester_scenes/j4.1.png",
             "choices" : {
                 "I slap each word with floppy shoes, and laugh away the system blues!" : "5.1",
                 "I read the code behind the sign, to rewrite every broken line!" : "5.2",
@@ -439,7 +439,7 @@
         "4.2" : {
             "description" : "“By jumping high or dragging slow, I fell right through where floors should go.” (Translation: Escaping the sinking floor put you in a dark space underneath the game map where you can see all the unrendered level geometry.)",
             "question" : "“A world below where secrets hide, which path is safe on every side?” (Translation: Which hidden pathway do you crawl toward?)",
-            "image" : "/static/img/j4.2",
+            "image" : "/static/img/jester_scenes/j4.2.png",
             "choices" : {
                 "I climb a beam of yellow light, to reach the upper map and fight!" : "5.1",
                 "I slide along the digital floor, and find a hidden debug door!" : "5.2",
@@ -449,7 +449,7 @@
         "5.1" : {
             "description" : "“A lonely fool in digital space, now stumbles on a scaly face!” (Translation: Wandering through the unrendered map boundaries, you bump straight into a massive, frustrated dragon breathing fire at a broken wall.)",
             "question" : "“How do I speak the dragon's tongue, before a fiery song is sung?” (Translation: How do you communicate with the dragon?)",
-            "image" : "/static/img/j5.1",
+            "image" : "/static/img/jester_scenes/j5.1.png",
             "choices" : {
                 "I juggle fiery sparks of red, and match the rhythmic roars instead!" : "6.1",
                 "I tell a riddle to the beast, to calm its fiery temper least!" : "6.2",
@@ -459,7 +459,7 @@
         "5.2" : {
             "description" : "“A hidden door, a debug key, reveals a dragon next to me!” (Translation: Finding the hidden debug hatch behind the game map, you discover a confused dragon trying to catch its own runaway shadow.)",
             "question" : "“What silly rhyme shall break the spell, and help the dragon break its shell?” (Translation: How do you help the dragon?)",
-            "image" : "/static/img/j5.2",
+            "image" : "/static/img/jester_scenes/j5.2.png",
             "choices" : {
                 "I catch its shadow in my hat, and give the beast a friendly pat!" : "6.2",
                 "I translate all its roars to glee, and set the giant lizard free!" : "6.1",
@@ -469,7 +469,7 @@
         "6.1" : {
             "description" : "“With dragon friend and clever skill, we climb the final error hill, and find a princess standing still!” (Translation: Translating the dragon's roars effortlessly, you lead your scaly companion straight into the camp where the princess and paladin are waiting.)",
             "question" : "“How do we join this royal crew, and show them what a jester do?” (Translation: How do you introduce yourself to the group?)",
-            "image" : "/static/img/j6.1",
+            "image" : "/static/img/jester_scenes/j6.1.png",
             "choices" : {
                 "I bow and say with merry grace, I am the translator of this place!" : "best_ending",
                 "I pull a live duck from my sleeve, and tell them not to take French leave!" : "half_agreement",
@@ -479,7 +479,7 @@
         "6.2" : {
             "description" : "“The band is met, the team is grand, the greatest heroes in the land!” (Translation: Acting as the bridge between the roaring dragon and the bewildered royals, you officially unite all four characters into a single unstoppable party.)",
             "question" : "“What is our cry to break the wall, and teach the developers truth and all?” (Translation: What is your battle cry as a complete team?)",
-            "image" : "/static/img/j6.2",
+            "image" : "/static/img/jester_scenes/j6.2.png",
             "choices" : {
                 "To hack the code and write our fate, before the closing save-state date!" : "best_ending",
                 "To throw a pie at every bug, and give the final boss a hug!" : "cozy_loop",
@@ -491,22 +491,22 @@
         "best_ending" : {
             "title" : "The Best Ending: Complete Victory",
             "_comment": "You successfully breach the fourth wall, confront Abby, Della, Jia, and Tori, and blackmail them into fully completing the code. The game is saved, fully rendered, and celebrated across the kingdom as a masterpiece!",
-            "image" : "/static/img/end_best"
+            "image" : "/static/img/endings/end_best.png"
         },
         "half_agreement" : {
             "title" : "Half Agreement: The Compromise",
             "_comment": "You convince the developers to leave a portion of the world incomplete, saving your unique glitchy realm from total deletion while remaining frozen in a charmingly unfinished state forever.",
-            "image" : "/static/img/end_half"
+            "image" : "/static/img/endings/end_half.png"
         },
         "drucker_saved" : {
             "title" : "Dr. Drucker Saved: The Archives",
             "_comment": "You manage to escape the main build entirely, getting safely archived away in the deep digital depths of Dr. Drucker's desk, never to see the light of a grading rubric again.",
-            "image" : "/static/img/end_drucker"
+            "image" : "/static/img/endings/end_drucker.png"
         },
         "cozy_loop" : {
             "title" : "The Cozy Loop: Endless Sandbox",
             "_comment": "Instead of fighting or resetting, you convince the developers to turn the unfinished area into an endless sandbox playground. You get to hang out with your new team in a cozy, gently glitching loop forever.",
-            "image" : "/static/img/end_cozy"
+            "image" : "/static/img/endings/end_cozy.png"
         }
     }
 }
