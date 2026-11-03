@@ -28,12 +28,12 @@ def get_scene_data(char, scene):
         full_char_story = story[char]
         # only get data associated with scene 
         active_scenario = full_char_story[scene]
-        return render_template("scene.html", char = char, sceneData = active_scenario)
+        return render_template("scene.html", char = char, scene_data = active_scenario)
     
     else:
         all_endings = story["endings"]
         active_scenario = all_endings[scene]
-        return render_template("ending.html", sceneData = active_scenario)
+        return render_template("ending.html", scene_data = active_scenario)
 
 
 # OBSOLETE 
