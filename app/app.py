@@ -6,56 +6,51 @@ import json
 
 app = Flask(__name__)
 
-
-@app.route("/template")
-def home():
-    return render_template("template.html")
-
-@app.route("/hello")
-def hello():
-    return "Hello, world!"
-
 # for template
 @app.route("/scene/<char>/<scene>")
-def get_SceneData(char, scene):
+def get_scene_data(char, scene):
 
     with open("db/story.json", "r") as f:
         story = json.load(f)
 
-    try:
-        float(scene)
-        # float(scene) worked
-        IsEnding = False
-    except (ValueError, TypeError):
-        # float(scene) failed
-        IsEnding = True
+    # json file is structured so that if the scene is the ending, 
+    # it's text as opposed to "3.2"
 
-    if not IsEnding:
-        # get the char
-        FullCharStory = story[char]
-        # dive in further and get the json file associated with scene 
-        ActiveScenario = FullCharStory[scene]
-        return render_template("scene.html", char = char, sceneData = ActiveScenario)
+    # is the scene a number (middle scene) or text (an ending)
+    try:
+        # is a number/middle scene
+        float(scene)
+        is_ending = False
+    except (ValueError, TypeError):
+        # is text/an ending
+        is_ending = True
+
+    if not is_ending:
+        # get the char's story within bigger json file
+        full_char_story = story[char]
+        # only get data associated with scene 
+        active_scenario = full_char_story[scene]
+        return render_template("scene.html", char = char, scene_data = active_scenario)
     
     else:
-        allEndings = story["endings"]
-        ActiveScenario = allEndings[scene]
-        return render_template("ending.html", sceneData = ActiveScenario)
+        all_endings = story["endings"]
+        active_scenario = all_endings[scene]
+        return render_template("ending.html", scene_data = active_scenario)
 
+
+# OBSOLETE 
 
 # for ajax
 @app.route("/play")
 def getCharScene():
     char = request.args.get("c", default = "princess")
     scene = request.args.get("s", default = "1")
-    # go into json, find that key (text choice), return value
-    #then everything below here works as normal
-    # go into json file, loading json as dict
+
     with open("db/story.json", "r") as f:
         story = json.load(f)
-    # get the char
+    # get data for char
     character = story[char]
-    # dive in further and get the json file associated with scene 
+    # get the data associated with scene 
     scenario = character[scene]
     
     thatJSONfile = jsonify(scenario)

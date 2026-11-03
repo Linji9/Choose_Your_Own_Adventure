@@ -4,20 +4,20 @@
 <div class = "scene">
     <div class="storyDescAndImage">
         <!-- getting scene description -->
-        <h2 class = "storyDescAndQ"> {{ sceneData['description'] }} </h2>
+        <h2 class = "storyDescAndQ"> {{ scene_data['description'] }} </h2>
 
         <!-- getting scene image -->
-        <img class = "storyImg" src = "{{ sceneData['image'] }}"/>
+        <img class = "storyImg" src = "{{ scene_data['image'] }}"/>
     </div>
 
     <div>
         <!-- getting scene question -->
-        <h2 class = "storyDescAndQ"> {{ sceneData['question'] }} </h2>
+        <h2 class = "storyDescAndQ"> {{ scene_data['question'] }} </h2>
     </div>
 
 <div class = "choices">
 <!-- looping through each choice -->
-{% for key, value in sceneData['choices'].items() %}
+{% for key, value in scene_data['choices'].items() %}
 
     <!-- creating a button for each choice that will lead to the next scene when clicked -->
     <div class = "choiceButton">
