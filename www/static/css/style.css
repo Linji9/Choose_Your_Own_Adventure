@@ -530,3 +530,22 @@ div.charImg.reveal.color {
         font-size: 1.25em;
     }
 }
+
+
+.backPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.textBack {
+    text-align: center;
+}
+
+.imageBack {
+    width: 350px;
+    height: auto;
+
+}

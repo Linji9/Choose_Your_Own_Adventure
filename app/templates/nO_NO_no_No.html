@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title> nO NO no No </title>
+        <link rel="stylesheet" href="static/css/style.css"/>
+    </head>
+    <body>
+        {% block content %}
+        <div class = "backPage">
+        <h1 class = "textBack"> {{ msg }} </h1>
+        <img class = "imageBack" src="/static/img/{{ person }}.png"/>
+        </div>
+        {% endblock %}
+    </body>
+</html>

@@ -1,3 +1,5 @@
+import random
+
 from flask import Flask, render_template, jsonify, request
 import json
 
@@ -58,3 +60,12 @@ def getCharScene():
     
     thatJSONfile = jsonify(scenario)
     return thatJSONfile
+
+@app.route("/nO_NO_no_No")
+def noBack():
+    msgs = [('della', "that's not allowed"), 
+            ('abby', "ahhhhhhhhhhh"), 
+            ('jia', "why r u here???????????????????????????????????"),
+            ('tori', "can i help you???????")]
+    person, msg = random.choice(msgs)
+    return render_template("nO_NO_no_No.html", person=person, msg=msg)
