@@ -10,5 +10,12 @@
         <img class = "imageBack" src="/static/img/{{ person }}.png"/>
         </div>
         {% endblock %}
+        <script>
+            // stop user from hitting the back button
+            window.history.pushState({ page: 1 }, '', window.location.href);
+            window.addEventListener('popstate', function (event) {
+                window.location.href = '/nO_NO_no_No';
+            })
+        </script>
     </body>
 </html>
