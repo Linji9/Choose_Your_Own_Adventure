@@ -310,11 +310,15 @@ li.char {
 }
 
 /* button to begin story */
-.depart_but img{
+.departBut img{
     height : auto;
     width : 250px;
     display: flex;
     padding: 40px;
+}
+
+.departBut:hover {
+    filter: brightness(120%)
 }
 
 .descAndDepart {
@@ -492,6 +496,10 @@ div.charImg.reveal.color {
     display: flex;
     flex-direction: row;
     height: stretch;
+}
+
+.choiceButton:hover {
+    filter: brightness(130%)
 }
 
 .choiceButtonText {
