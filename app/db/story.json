@@ -134,7 +134,7 @@
   },
   "paladin": {
     "1": {
-      "description": "You're in the sunny castle courtyard polishing your breastplate while your trusty steed eats clover. Your hair looks excellent. Rumors say the kingdom is doomed, but you've got a sword, a horse, and an extremely heroic jawline. That sounds like a problem for a paladin. A village priest passes by praising the 'Higher Hands' that watch over everyone. You're pretty sure he means you.",
+      "description": "You're in the sunny castle courtyard polishing your breastplate while your trusty steed eats clover. Your hair looks excellent. Rumors say the kingdom is doomed, but you've got a sword, a horse, and an extremely heroic jawline. That sounds like a problem for Paladin Ken. A village priest passes by praising the 'Higher Hands' that watch over everyone. You're pretty sure he means you.",
       "question": "What is your immediate priority before setting out on your quest?",
       "image": "/static/img/paladin_scenes/pal1.png",
       "choices": {

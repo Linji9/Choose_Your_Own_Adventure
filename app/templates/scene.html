@@ -4,7 +4,9 @@
 <div class = "scene">
     <div class="storyDescAndImage">
         <!-- getting scene description -->
-        <h2 class = "storyDescAndQ"> {{ scene_data['description'] }} </h2>
+         <!-- from w3 schools -->
+        <h2 class = "storyDescAndQ" id = "demo"> </h2>
+        <button onclick="typeWriter()">Click me</button>
 
         <!-- getting scene image -->
         <img class = "storyImg" src = "{{ scene_data['image'] }}"/>
@@ -27,5 +29,18 @@
 {% endfor %}
 </div>
 </div>
+<!-- from w3 schools -->
+<script>
+    var i = 0;
+    var txt = {{ scene_data['description'] }};
+    var speed = 50;
 
+    function typeWriter() {
+        if (i < txt.length) {
+            document.getElementById("demo").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+        }
+    }
+</script>
 {% endblock %}
