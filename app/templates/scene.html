@@ -1,13 +1,11 @@
 {% extends 'base.html' %}
 
 {% block scene_results %}
+
 <div class = "scene">
     <div class="storyDescAndImage">
-        <!-- getting scene description -->
-         <!-- from w3 schools -->
-        <h2 class = "storyDescAndQ" id = "demo"> </h2>
-        <button onclick="typeWriter()">Click me</button>
-
+        <!-- getting scene description, should appear as being typed -->
+        <h2 class = "storyDescAndQ" id = "typed"> </h2>
         <!-- getting scene image -->
         <img class = "storyImg" src = "{{ scene_data['image'] }}"/>
     </div>
@@ -29,18 +27,22 @@
 {% endfor %}
 </div>
 </div>
-<!-- from w3 schools -->
+
+<!-- developed from w3 schools, chatgpt -->
 <script>
     var i = 0;
-    var txt = {{ scene_data['description'] }};
     var speed = 50;
+    const txt = {{ scene_data['description'] }};
 
     function typeWriter() {
         if (i < txt.length) {
-            document.getElementById("demo").innerHTML += txt.charAt(i);
+            document.getElementById("typed").innerHTML += txt.charAt(i);
             i++;
             setTimeout(typeWriter, speed);
         }
     }
+
+    typeWriter(description);
+
 </script>
 {% endblock %}
