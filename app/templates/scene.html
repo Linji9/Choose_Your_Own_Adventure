@@ -32,17 +32,17 @@
 <script>
     var i = 0;
     var speed = 50;
-    const txt = {{ scene_data['description'] }};
+    const txt = {{ scene_data['description'] | tojson }};
 
     function typeWriter() {
         if (i < txt.length) {
-            document.getElementById("typed").innerHTML += txt.charAt(i);
+            typedElement.textContent += txt.charAt(i);
             i++;
             setTimeout(typeWriter, speed);
         }
     }
 
-    typeWriter(description);
+    typeWriter();
 
 </script>
 {% endblock %}

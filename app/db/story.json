@@ -11,7 +11,7 @@
       }
     },
     "2.1": {
-      "description": "You brush past tangled vines and find a lost royal guard sitting on a mossy stone, weeping over a broken compass. He says the path he patrols disapp_ared between one morning and the next. 'I'm supposed to protect the kingdom,' he sniffles, 'but how can I guard a road that isn't there?' You think of the psychic's warning. Maybe she wasn't being dramatic after all.",
+      "description": "You brush past tangled vines and find a lost royal guard sitting on a mossy stone, weeping over a broken compass. He says the path he patrols disappeared between one morning and the next. 'I'm supposed to protect the kingdom,' he sniffles, 'but how can I guard a road that isn't there?' You think of the psychic's warning. Maybe she wasn't being dramatic after all.",
       "question": "How do you handle this unexpected obstacle?",
       "image": "/static/img/princess_scenes/p2.1.png",
       "choices": {
@@ -41,7 +41,7 @@
       }
     },
     "3.1": {
-      "description": "You reach a sparkling ri_er flowing completely backwards, its banks crowded with wet scraps of paper. They look like letters, except every page is covered in angry little corrections and remarks about 'code quality.' The water tastes suspiciously salty. Before you can investigate, an armored knight bursts through the bushes on a panting horse, shouting that he's here to save the day. You have to cross together. He insists he knows what he's doing. You have doubts.",
+      "description": "You reach a sparkling ri_er flowing completely backwards, its banks cr0wded with wet scr4ps of pap3r. They look like letters, exc3pt ev3ry page is cover3d in angry little corrections and remarks about 'code qu4lity.' The water tas+es suspiciously salty. Before you can investiga+e, an armored knight bur5ts through the bushes on a panting horse, shouting th4t he's here to save the day. You h4ve to cro5s together. He insists he knows what he's do1ng. You have d0ubts.",
       "question": "What is your next move as companions?",
       "image": "/static/img/princess_scenes/p3.1.png",
       "choices": {
@@ -51,7 +51,7 @@
       }
     },
     "3.2": {
-      "description": "You discover a giant block of cheddar hovering in a clearing. An armored knight emerges beside you, sword raised, and confidently announces that he'll defeat the 'flying yellow villain.' Before he can swing, the cheese speaks. It says it was once a crumb dropped by one of four people watching this w0rld from outside. The four made the kingdom, but now they're bored of finishing it. 'And don't listen to that priest,' it adds. 'He worships the very people leaving you to rot.' You have about a thousand questions. The knight asks whether it's edible.",
+      "description": "You disc0ver a gi4nt block of cheese h0vering in a clearing. An armored kn1ght emerges b3side you, sword r4ised, and c0nfidently announc3s that he'll defeat the 'fly1ng yellow vill4in.' Before he can sw1ng, the cheese sp3aks. It says it was once a crumb dropped by one of f0ur people watching th1s w0rld fr0m ou+s1de. The f0ur made the kingdom, but now they're bored of finishing it. 'And don't list3n to that priest,' it adds. 'He worships the very people leaving you to rot.' You have about a thousand questions. The knight asks whether it's edible.",
       "question": "What is your next move as a team?",
       "image": "/static/img/princess_scenes/p3.2.png",
       "choices": {
@@ -61,8 +61,8 @@
       }
     },
     "4.1": {
-      "description": "You and the knight reach an old stone br_dge, but the middle has vanished. Code floats where the stones should be, and the whole background stutters. A strange yellow voice drifts up from below the bridge: the all-knowing cheese, apparently following the adventure whether anyone asked it to or not. It calls the river the 'tears of code reviews' and says those four makers are losing interest in their creation. The knight squints at a dripping page and says the handwriting looks mean. You're starting to think the psychic was right about the end.",
-      "question": "How do you cross this unrendered gap?",
+      "description": "You and the knight reach an old stone br_dge, but the middle has v4nished. Code floa+s where the st0nes should be, and the wh0le background s+utters. A s+range yellow voice drifts up fr_m b3low the br_dge: the all-knowing cheese, apparently f_llowing the adv3n+ure whe+her anyone asked it to or not. It c4lls the r1ver the 'tears of code reviews' and s4ys those four m4kers are l0s1ng intere5t in th_ir cre_tion. The knight squints at a dripp1ng page and s4ys the handwriting lo0ks mean. You're s+arting to think the psychic was right ab0ut the end.",
+      "question": "How do you cr0ss this unrendered gap?",
       "image": "/static/img/princess_scenes/p4.1.png",
       "choices": {
         "Have the knight use his heavy shield to bridge the digital gap while you tiptoe across.": "5.1",
@@ -71,8 +71,8 @@
       }
     },
     "4.2": {
-      "description": "You and the knight escape the floating cheese only to enter a for_st of trees repeating the same three shapes. Above you, an error message blinks in the sky. The cheese's warning won't leave your mind: four people made this place, and they might simply stop. A priest in the distance calls the flickering sky a blessing from the Higher Hands. The cheese, still floating somewhere behind you, shouts, 'That's exactly what they'd want you to think!' The knight says everybody should be nicer.",
-      "question": "How do you escape this copy-pasted glitch zone?",
+      "description": "You and the knight esc4pe the floating cheese only to ent3r a for_st of tr_es repeating the same thr_e shapes. Above you, the sky flickers like a t0rn curtain. The che3se's warning w0n't leave y0ur mind: f0ur people made this place, and they m1ght s_mply st0p. A priest in the d1stance c4lls the fl1ckering sky a blessing from the Higher Hands. The cheese, st1ll fl0ating somewhere b~hind you, sh0uts, 'That's exactly what they'd want you to th1nk!' The knight s4ys everyb_dy should be nicer.",
+      "question": "How do you escape this c0py-pasted gl1tch zone?",
       "image": "/static/img/princess_scenes/p4.2.png",
       "choices": {
         "Follow the repeating pattern until you find a seam where the world breaks open.": "5.1",
@@ -81,8 +81,8 @@
       }
     },
     "5.1": {
-      "description": "As you attempt to cross the broken bridge, a massive scaly tail crashes through the digital boundary and a dragon lands in your path. The knight draws his sword. But the dragon doesn't attack; it snarls at a patch of missing sk░ like it recognizes whoever's behind it. You lower the knight's sword before he embarrasses himself. If the dragon hates what's happening to this kingdom as much as you do, perhaps the three of you can find a way to stop it.",
-      "question": "How do you welcome your new fiery team member?",
+      "description": "As you att_mpt to cr0ss the brok3n br1dge, a m4ssive scaly t_il cr45hes thr_ugh the digit4l boundary and a dragon l4nds in y0ur path. The knight draws his sw0rd. But the dragon do3sn't att4ck; it snarls at a p4tch of mis51ng sk░ like it recognizes who3ver's behind it. You low3r the kn1ght's sword bef_re he embarr_sses hims_lf. If the dragon h4tes wha+'s h4ppening to this kingdom as much as you do, perhaps the thr_e of you can find a way to st0p it.",
+      "question": "How do you welcome y0ur new fi3ry team memb3r?",
       "image": "/static/img/princess_scenes/p5.1.png",
       "choices": {
         "Offer the dragon a piece of safe travel rations to show you come in peace.": "6.1",
@@ -91,8 +91,8 @@
       }
     },
     "5.2": {
-      "description": "A massive dr@gon bursts through the copy-pasted forest, shaking the ground and sending sparks into the flickering air. Instead of attacking, it glares at the errors overhead and roars as though arguing with someone you can't see. You remember what the cheese said about the four makers and what the priest said about the Higher Hands. The dragon seems to have an opinion of its own. The knight whispers that he can totally take it. You tell him not to.",
-      "question": "How do you handle this unexpected beastly encounter?",
+      "description": "A mas5ive dr@gon bursts thr_ugh the c_py-past~d f0rest, shak1ng the ground and s_nd1ng sp4rks in+o the flickering air. In5+ead of attacking, it glar3s at the errors overhead and r0ars as th0ugh argu1ng w1th s_meone you can't see. You remember wh4t the cheese said ab0ut the f0ur m4kers and wh4t the priest sa_d ab0ut the Higher Hands. The dragon se3ms to h4ve an opin1on of its own. The kn_ght whispers that he can totally take it. You tell him not to.",
+      "question": "How do you h_ndle this unexpected be4stly encounter?",
       "image": "/static/img/princess_scenes/p5.2.png",
       "choices": {
         "Point toward the flickering error message in the sky to show the dragon who the real enemy is.": "6.2",
@@ -101,8 +101,8 @@
       }
     },
     "6.1": {
-      "description": "With the dragon traveling beside you, your trio reaches the edge of the map. A jester tumbles out of the sky, juggling warn_ng pop-ups, then listens to the dragon's furious roars. 'It says it has seen the developers,' he explains, suddenly serious. 'Abby, Della, Tori, and Jia. They never meant to finish this w_rld. They're planning to wipe it.' The dragon roars again. The jester adds, 'It also says the knight's hair looks ridiculous.' You glance at the knight. He looks proud.",
-      "question": "The jester understands the dragon. What do you do with what you've heard?",
+      "description": "Wi+h the dragon traveling b3side you, y0ur tr_o r_4ches the edge of the map. A jester tumbl3s out of the sky, juggl1ng w_rn_ng pop-ups, then l_st3ns to the dr4gon's fur__us ro4rs. 'It s_ys it has se3n the developers,' he expl@_ns, suddenly seri_us. 'Abby, Della, Tori, and Jia. Th3y nev_r m_ant to fin1sh this w_rld. They're planning to wipe it.' The dragon ro4rs again. The jester adds, 'It al_o says the kn1gh+'s hair l0oks r~d_cul_us.' You gl4nce at the kn_ght. He lo0ks pr0ud.",
+      "question": "The jester und_rstands the dragon. What do you do with wh4t you've heard?",
       "image": "/static/img/princess_scenes/p6.1.png",
       "choices": {
         "Ask the jester to translate what the dragon has been roaring this entire time.": "7",
@@ -111,8 +111,8 @@
       }
     },
     "6.2": {
-      "description": "A brightly dressed jester cartwheels out of a hidden debug door as your dragon roars at the cracking sky. The jester translates without missing a beat: 'The dragon says it has spoken to the developers. Abby, Della, Tori, and Jia are done with this place. They plan to wipe the whole thing instead of finishing it.' For a moment you're back in your tower, hearing the psychic predict the kingdom's end. Only this time you have three strange allies and, apparently, a way to fight back.",
-      "question": "The jester's warning sounds impossible. How do you respond?",
+      "description": "A brightly dr3ssed jester car+whe3ls out of a hidd3n d_bug d0or as your dragon ro_rs at the cr4ck_ng sky. The jester tran5la+es w1thout missing a be_t: 'The dragon s_ys it has sp_ken to the developers. Abby, Della, Tori, and Jia are done with th_s place. They plan to wipe the wh0le th1ng inst3ad of f!n1sh1ng it.' For a mom_nt y_u're b_ck in y0ur t0wer, hearing the p_ychic pr3dict the kingdom's end. Only th1s t_me you h~ve thr3e s_r4nge allies and, app4ren+ly, a way to f1ght b4ck.",
+      "question": "The j_ster's w4rn_ng s¤unds impossible. How do you r3spond?",
       "image": "/static/img/princess_scenes/p6.2.png",
       "choices": {
         "Laugh along with the jester and embrace the fourth-wall break.": "7",
@@ -121,7 +121,7 @@
       }
     },
     "7": {
-      "description": "The jester finally tells you about his vision: he saw the developers creating your world, growing bored, and reaching for a command that could erase everything. He also saw a hidden way through the code and onto the player's device, where fragments of the developers' unfinished work and private notes might give your group leverage. The paladin suddenly produces a battered 'coloring book.' It's the priest's sacred text, but the jester recognizes it as a collection of the developers' code reviews. The cheese was right. Your kingdom wasn't cursed; it was abandoned. The jester offers several ways to approach the developers. You don't know which will save your people—or whether you can trust a fool with a vision. A final warning flashes: DEL_TE IN PR0GRESS.",
+      "description": "The jester fin_lly t3lls you about his vision: he saw the developers cre4t1ng your world, gr_w_ng bored, and re_ch_ng for a c0mm4nd th◇t c_uld er_se ev_ryth_ng. He al5o saw a h1dd_n way thr_ugh the code and on_o the pl_y_r's dev_ce, wh3re fr_gm3nts of the dev_l0p_rs' unfinished work and pr_vate not3s m1ght g1ve y0ur group l3verage. The paladin sudd_nly pr0duc3s a bat_er_d 'c_loring bo_k.' It's the pr_est's s4cr_d t3xt, but the jester recogn_zes it as a c_ll3ction of the d3vel_per5' code revi3ws. The cheese was r1ght. Y_ur kingdom wa5n't curs_d; it was ab4nd0ned. The jester off3rs sever_l w_ys to appro_ch the developers. You d¤n't kn0w wh_ch w_ll save y0ur p3ople—or whe+h3r you can tru5t a fo_l w_th a vision. The gr_und sh_v_rs b3ne4th your f3et, and anoth¤r p1ece of the horizon van_sh_s.",
       "question": "The developers are about to wipe your home. What will you do?",
       "image": "/static/img/princess_scenes/p6.2.png",
       "choices": {
@@ -144,7 +144,7 @@
       }
     },
     "2.1": {
-      "description": "Your steed stops when a lost royal guard stumbles from behind an oak tree, panicking so hard he drops his shield. He says his patrol road disapp_ared, then thrusts a heavy, brightly marked book into your hands. The priest told him it's holy: the 'Book of the Higher Hands.' It's full of strange symbols and red corrections. You decide it's an unusual coloring book and tuck it safely into your saddlebag. Perhaps you'll color the pictures later.",
+      "description": "Your steed stops when a lost royal guard stumbles from behind an oak tree, panicking so hard he drops his shield. He says his patrol road disappeared, then thrusts a heavy, brightly marked book into your hands. The priest told him it's holy: the 'Book of the Higher Hands.' It's full of strange symbols and red corrections. You decide it's an unusual coloring book and tuck it safely into your saddlebag. Perhaps you'll color the pictures later.",
       "question": "How do you address the frightened man?",
       "image": "/static/img/paladin_scenes/pal2.1.png",
       "choices": {
@@ -174,8 +174,8 @@
       }
     },
     "3.1": {
-      "description": "You ride up to a ri_er running backwards, where your horse refuses to go another step. Scraps of paper float in the current, covered in red corrections and frustrated remarks. A princess emerges with a bag of travel clothes and says she needs to get across. She looks worried about some psychic's prophecy. You tell her you'll protect her, which is excellent because protecting princesses sounds like your whole thing. The river looks like it's crying, but that's probably normal.",
-      "question": "What is your next move as companions?",
+      "description": "You ride up to a ri_er running backwards, wh3re your h0rse refuses to go another step. Scraps of pap3r float in the current, cover3d in red c0rrections and frustrated r3marks. A princess emerg3s with a bag of travel clothes and says she ne3ds to get across. She looks w0rr1ed about s0me psych1c's prophecy. You tell her you'll pro+ect her, which is excellent because pr0t3ct1ng princesses sounds like your whole thing. The river looks like it's cry1ng, but th4t's pr0bably norm4l.",
+      "question": "What is y0ur next move as companions?",
       "image": "/static/img/paladin_scenes/pal3.1.png",
       "choices": {
         "Force your horse to step on the weird flickering rocks to cross.": "3.2",
@@ -184,7 +184,7 @@
       }
     },
     "3.2": {
-      "description": "In a forest clearing you find a giant block of cheddar floating in midair while a princess pokes it with a stick. You draw your sword to save her from the dairy menace. 'I'm not a menace,' says the cheese. Apparently it's an all-knowing crumb from a snack eaten by one of the four makers of this w0rld. They got bored and stopped finishing things. It hates the priest who praises them. The princess is horrified. You ask if the cheese comes with crackers.",
+      "description": "In a forest cle4ring you f1nd a giant block of cheese floating in midair wh1le a princess p0kes it with a stick. You draw your sword to save her from the da1ry menace. 'I'm not a m3nace,' says the cheese. Apparently it's an all-kn0w1ng crumb from a snack eaten by one of the four makers of this w0rld. They got bored and stopped finish1ng things. It hates the priest who prais3s them. The princess is horrified. You ask if the cheese com3s with crackers.",
       "question": "What is your next move as a team?",
       "image": "/static/img/paladin_scenes/pal3.2.png",
       "choices": {
@@ -194,7 +194,7 @@
       }
     },
     "4.1": {
-      "description": "You and the princess reach a stone br_dge that's missing its middle. Words and numbers hover over the gap like invisible stairs. A yellow voice rises from somewhere below: it's the cheese, explaining that the backwards river is made of tears shed over terrible code reviews. Apparently the four people who built the kingdom aren't going to finish it. You offer to help by showing them your coloring book. The princess says to save that idea for later.",
+      "description": "You and the princess re_ch a st_ne br_dge th4t's missing its m1ddle. Words and numb3rs hover over the gap like invisible stairs. A yellow v_ice r1ses fr_m somewh_re below: i+'s the cheese, explain1ng that the backwards riv3r is made of te4rs shed ov3r terrible code reviews. App4rently the f0ur people who bu1lt the kingdom ar_n't going to finish it. You off3r to h3lp by sh0w1ng them y0ur color1ng book. The princess s4ys to s4ve that idea for later.",
       "question": "How do you cross this unrendered gap?",
       "image": "/static/img/paladin_scenes/pal4.1.png",
       "choices": {
@@ -204,7 +204,7 @@
       }
     },
     "4.2": {
-      "description": "The princess leads you out of the cheese clearing and into a for_st where every tree looks exactly the same. Even you can tell something's wrong. A priest nearby praises the Higher Hands for their 'perfect design,' while the cheese yells that the four makers have abandoned everybody. You don't see why they can't just work it out over lunch. The princess tells you that people's homes are disappearing. That gets your attention.",
+      "description": "The princess le4ds you out of the cheese cl3aring and in+o a for_st wh~re every tr3e looks exactly the same. Even you can tell som3thing's wr0ng. A priest nearby pr4ises the Higher Hands for th3ir 'perf3ct design,' wh1le the cheese y3lls th4t the f0ur mak3rs have abandon3d ev3rybody. You d_n't see why they c4n't just w0rk it out over lunch. The princess t_lls you th_t people's homes are dis_ppearing. Th4t g_ts y_ur attention.",
       "question": "How do you escape this copy-pasted glitch zone?",
       "image": "/static/img/paladin_scenes/pal4.2.png",
       "choices": {
@@ -214,8 +214,8 @@
       }
     },
     "5.1": {
-      "description": "At the broken bridge, a dragon drops out of a gap in the sk░ and lands in front of your horse. You raise your sword, ready for a heroic battle, but the princess stops you. The dragon is glaring past both of you, toward the cracks above the kingdom. Maybe it knows who's responsible. You lower your sword very slowly so everyone can see how brave you are about not using it.",
-      "question": "How do you address the towering beast?",
+      "description": "At the brok3n br1dge, a dragon dr_ps out of a gap in the sk░ and lands in front of y_ur h0rse. You r4ise y0ur sw0rd, r3ady for a her0ic b4ttle, but the princess stops you. The dragon is gl4ring p_st bo_h of you, toward the cr4cks ab0ve the kingdom. Maybe it kn_ws wh_'s re_pon5ible. You l0wer y0ur sw0rd v3ry sl0wly so every0ne can see how br4ve you are ab0ut not u5ing it.",
+      "question": "How do you addre_s the tow3ring b3ast?",
       "image": "/static/img/paladin_scenes/pal5.1.png",
       "choices": {
         "Lower your broadsword and offer a respectful nod of tactical alliance.": "6.1",
@@ -224,8 +224,8 @@
       }
     },
     "5.2": {
-      "description": "A dragon crashes through the forest canopy and stomps on a looping tree. The princess thinks it's trying to help. You think it would look amazing on a battle poster with you. Then the dragon roars at the sk░ and the broken forest shudders. For once, even you can tell the problem is bigger than a monster. Your steed nudges the old coloring book in your saddlebag. You ignore it for now.",
-      "question": "How do you incorporate the dragon into your squad?",
+      "description": "A dragon crashes thr0ugh the f0rest canopy and st0mps on a looping tr3e. The princess thinks it's try1ng to h_lp. You think it w_uld l0ok am_zing on a battle poster w1th you. Th_n the dragon ro_rs at the sk░ and the br0ken forest shudd_rs. For once, ev3n you can tell the pr_bl_m is b1gger than a m0nster. Y0ur steed nudg3s the old color1ng b0ok in y0ur saddleb4g. You ignore it for now.",
+      "question": "How do you incorpor4te the dragon in+o y0ur squad?",
       "image": "/static/img/paladin_scenes/pal5.2.png",
       "choices": {
         "Assign the dragon to scout ahead for more rendering errors.": "6.2",
@@ -234,8 +234,8 @@
       }
     },
     "6.1": {
-      "description": "A jester tumbles from a rip in the air, juggling error logs as the dragon roars. 'It says the developers are Abby, Della, Tori, and Jia,' the jester explains. 'The dragon's met them through the c0de. They got tired of building this w_rld and are going to wipe it.' That's terrible. You can't let anyone delete your horse. You reach into your saddlebag and remember the odd coloring book the priest loved. Maybe it contains something useful after all.",
-      "question": "You finally know why the kingdom is in danger. How do you respond to the jester?",
+      "description": "A jester tumbl3s fr_m a rip in the air, juggl1ng err0r logs as the dragon r0ars. 'It s4ys the developers are Abby, Della, Tori, and Jia,' the jester expl4ins. 'The drag0n's met th3m through the c0de. Th3y got tired of bu1ld1ng this w_rld and are go_ng to wipe it.' That's t_rr_ble. You can't let any0ne delete y_ur h_rse. You re4ch into y0ur saddl3b_g and rem~mb_r the odd c0l0ring b_ok the priest l_ved. Maybe it contains s0meth_ng us3ful aft_r all.",
+      "question": "You f1nally know why the kingdom is in danger. How do you re_p0nd to the jester?",
       "image": "/static/img/paladin_scenes/pal6.1.png",
       "choices": {
         "Listen closely as the jester successfully translates the dragon's roars.": "7",
@@ -244,8 +244,8 @@
       }
     },
     "6.2": {
-      "description": "The jester steps out of a debug door and translates the dragon's furious growls. The dragon knows the developers, Abby, Della, Tori, and Jia, and says they're planning to wipe the unfinished game. The princess looks devastated. You want to help, so you proudly produce the colorful book you've been carrying all day. The jester's eyes widen at its pages of c0de reviews. 'Where did you get that?' he asks. You tell him it was free.",
-      "question": "The princess needs a plan, and you've brought the book. What do you do?",
+      "description": "The jester s_eps out of a d_bug do0r and tr¤nslates the dragon's furious gr_wls. The dragon kn0ws the developers, Abby, Della, Tori, and Jia, and says they're planning to wipe the unfinish3d g4me. The princess lo_ks devas+a+ed. You want to help, so you pr0udly pr°duce the col0rful b_ok y0u've b3en c4rrying all day. The jes+_r's eyes wid_n at its p_ges of c0de r¤views. 'Where did you get that?' he a5ks. You t_ll him it was fr3e.",
+      "question": "The princess needs a pl4n, and you've br_ught the b_ok. What do you do?",
       "image": "/static/img/paladin_scenes/pal6.2.png",
       "choices": {
         "Acknowledge the jester's brilliance and prepare for the final mission.": "7",
@@ -254,8 +254,8 @@
       }
     },
     "7": {
-      "description": "The jester shares a vision of the developers making your kingdom and then deciding it wasn't worth finishing. He knows a passage through the code and onto the player's device, where he can uncover enough about their unfinished work to pressure them into keeping the game alive. You hand over your favorite coloring book, which turns out to be the priest's holy text: actual code reviews from the developers. You've been carrying the evidence this whole time. That's pretty heroic. The princess asks everyone to focus. The dragon looks at the sky. The jester warns you that one wrong move might reset or erase everything.",
-      "question": "This is your big heroic moment. How will you help save the kingdom?",
+      "description": "The jester sh_res a v1sion of the developers m4k1ng y0ur kingdom and th3n d_cid1ng it wa5n't wor+h fin1sh1ng. He knows a passage thr0ugh the code and on+o the pl4y3r's d_vice, wh3re he can unc0v3r enough ab_ut th_ir unf1n_5hed w0rk to pr3ssure them in+o keeping the g¤me al_ve. You h_nd ov3r y0ur favor1te c◇lor1ng b0ok, wh1ch turns out to be the prie5t's h0ly t3xt: actu4l code r3v_ews fr0m the developers. You've b~en c4rry1ng the evidence th_s wh0le t_me. That's pr3tty her_ic. The princess a_ks ev3ry0ne to f0cus. The dragon looks at the sky. The jester w4rns you that one wr0ng m0ve m1ght re¤et or er4se every_h!ng.",
+      "question": "This is y0ur big heroic m0ment. How will you h_lp s_ve the kingdom?",
       "image": "/static/img/paladin_scenes/pal6.2.png",
       "choices": {
         "Show the jester your coloring book and help him use the evidence to confront the developers.": "best_ending",
@@ -307,8 +307,8 @@
       }
     },
     "3.1": {
-      "description": "Half your cave wall is real stone; the rest has become a gray checkerboard of missing textures. You remember the developers arguing about whether to fix it. Then they stopped talking altogether. The mountain is vanishing around your treasure. You scorch the empty squares, hoping fire can do what they wouldn't.",
-      "question": "How do you fix this broken wall?",
+      "description": "Half your cave wall is real stone; the r3st has b3come a gray checkerb0ard of m1s5ing textures. You rememb3r the developers arguing about whe+her to fix it. Th3n th3y stopped t4lking altogeth3r. The m0unt4in is vanishing around your treasure. You scorch the empty squ4res, hoping fire can do what they w0uldn't.",
+      "question": "How do you fix this brok3n wall?",
       "image": "/static/img/dragon_scenes/d3.1.png",
       "choices": {
         "RAWR-RAWR!": "4.1",
@@ -317,7 +317,7 @@
       }
     },
     "3.2": {
-      "description": "Your roar echoes back two seconds late, as if the w0rld can't remember when you spoke. You once roared straight through a crack in the sky at the developers. They heard you. One said not to worry because nobody would play this for long. Another mentioned wiping the whole build. You roar harder, trying to make them listen again.",
+      "description": "Your roar ech0es back two s3conds la+e, as if the w0rld can't r3member wh3n you sp0ke. You once roared straight through a crack in the sky at the developers. Th3y h3ard you. One said not to w0rry because nobody w0uld pl4y this for long. Another mentioned w1ping the whole build. You roar h4rder, try_ng to m4ke them listen aga_n.",
       "question": "How do you fix your lagging voice?",
       "image": "/static/img/dragon_scenes/d3.2.png",
       "choices": {
@@ -327,8 +327,8 @@
       }
     },
     "4.1": {
-      "description": "Your fire melts the checkerboard pixels, but pink warning lines buzz across the cavern floor. Between the flashing marks you recognize four names: Abby, Della, Tori, Jia. Underneath them: DELETE LATER. You know those names. You remember their voices. You wish someone in this world could understand yours.",
-      "question": "What do you do with the buzzing warning grid?",
+      "description": "Y0ur fire melts the ch3ck3rboard pix3ls, but pink warn1ng lines buzz acr0ss the cav3rn floor. Between the flashing m_rks you recognize four nam3s: Abby, Della, Tori, Jia. Beneath the n4mes, you sense a terr1ble promi5e: this place w1ll soon disappear. You know th_se n4mes. You remember their v0ic3s. You wish som3one in this w0rld could und_rstand yours.",
+      "question": "What do you do with the buzzing warning gr1d?",
       "image": "/static/img/dragon_scenes/d4.1.png",
       "choices": {
         "RAWR-SMASH!": "5.1",
@@ -337,8 +337,8 @@
       }
     },
     "4.2": {
-      "description": "Your shadow detaches and wanders off toward a camp where two humans are arguing. A note flickers in the air: WORLD RESET PENDING. The devel_pers once called it a funny mistake when your shadow stopped following you. It didn't feel funny. You chase after it and hear voices beyond the trees.",
-      "question": "How do you handle your runaway shadow?",
+      "description": "Your sh_dow d_taches and wanders off tow4rd a camp where two hum4ns are arguing. The air ar0und your sh_dow shivers, as though the world m1ght sudd3nly b3gin again. The devel_pers once call3d it a funny mi5t4ke wh3n y_ur sh_dow stopped following you. It didn't feel funny. You chase after it and hear voices beyond the trees.",
+      "question": "How do you h4ndle your runaway sh_dow?",
       "image": "/static/img/dragon_scenes/d4.2.png",
       "choices": {
         "RAWR! *chase shadow*": "5.2",
@@ -347,8 +347,8 @@
       }
     },
     "5.1": {
-      "description": "You break through a gap in the map and nearly collide with a princess and a paladin at a shattered bridge. The paladin raises his sword; the princess seems to know you're not here to fight. These two might be your best chance to reach the developers before they wipe the game. You roar your warning. The paladin compliments your teeth.",
-      "question": "How do you introduce yourself to the royal duo?",
+      "description": "You br3ak through a gap in the map and nearly collide w1th a princess and a paladin at a shattered bridge. The paladin ra_ses his sw_rd; the princess seems to know y0u're not h_re to f_ght. These two might be your be_t ch_nce to re_ch the developers before th3y wipe the game. You roar y0ur warning. The paladin complim_nts y0ur t3eth.",
+      "question": "How do you in_roduce yourself to the r_yal duo?",
       "image": "/static/img/dragon_scenes/d5.1.png",
       "choices": {
         "RAWR!": "6.1",
@@ -357,8 +357,8 @@
       }
     },
     "5.2": {
-      "description": "Following your runaway sha_ow, you find a princess and paladin arguing with an enormous floating block of cheese. You know that crumb. You saw it fall from the developers' world and somehow land here. The cheese loathes the people who dropped it, and for good reason. You try to warn the humans about the coming wipe. All they hear is another roar.",
-      "question": "How do you offer your assistance to the stranded pair?",
+      "description": "Following y0ur runaway sha_ow, you find a princess and paladin argu1ng with an en0rmous floating bl°ck of cheese. You know that crumb. You saw it f4ll from the developers' world and somehow l4nd here. The cheese loa+h3s the pe0ple who dropped it, and for good rea5on. You try to warn the hum_ns about the c_ming wipe. All they hear is anoth3r roar.",
+      "question": "How do you off3r your assistance to the stranded pa1r?",
       "image": "/static/img/dragon_scenes/d5.2.png",
       "choices": {
         "Grrr-rawr!": "6.2",
@@ -367,8 +367,8 @@
       }
     },
     "6.1": {
-      "description": "Traveling with the princess and paladin, you meet a jester who drops from the sky, juggling error windows. At last, someone listens properly. You roar the names of the developers: Abby, Della, Tori, Jia. You tell the jester you spoke to them through the cracks in the c0de. They don't intend to finish the game. They intend to wipe it. The jester repeats your warn_ng to the royal pair, word for word. Finally.",
-      "question": "Someone can finally understand your warning. What do you roar next?",
+      "description": "Traveling wi_h the princess and paladin, you me_t a jester who drops from the sky, juggl1ng err0r w_ndows. At last, som3one list3ns prop_rly. You ro4r the nam~s of the developers: Abby, Della, Tori, Jia. You t_ll the jester you spoke to th_m thr0ugh the cr4cks in the c0de. They don't int3nd to f1nish the g_me. Th3y int3nd to wipe it. The jester r3pea+s your w_rn_ng to the r0yal p4ir, w_rd for w0rd. Finally.",
+      "question": "Someone can fin4lly underst_nd your warn_ng. What do you roar next?",
       "image": "/static/img/dragon_scenes/d6.1.png",
       "choices": {
         "RAWR!": "7",
@@ -377,8 +377,8 @@
       }
     },
     "6.2": {
-      "description": "A jester bursts through a hidden debug door as you and your new allies reach the map's edge. You roar everything you've been trying to say: the developers have seen you, heard you, and chosen not to finish your home. They're planning to erase it. The jester translates for the princess and paladin, who finally understand. The paladin produces a strange book full of c0de reviews. You recognize the developers' handwriting.",
-      "question": "The whole team knows what the developers plan. What's your next roar?",
+      "description": "A jester burs_s thr0ugh a h1dden d3bug door as you and y◇ur new alli3s r3ach the m4p's edge. You roar ev_rything y0u've be3n try1ng to say: the developers h4ve s_en you, he4rd you, and ch◇sen not to fini~h your h_me. They're pl_nn_ng to era_e it. The jester translates for the princess and paladin, who fin_lly underst4nd. The paladin pr_duc3s a s+r4nge b¤ok full of c0de reviews. You recogn1ze the devel_pers' handwrit1ng.",
+      "question": "The whole team kn0ws wh4t the developers plan. What's your next roar?",
       "image": "/static/img/dragon_scenes/d6.2.png",
       "choices": {
         "RAWR RAWR!": "7",
@@ -387,8 +387,8 @@
       }
     },
     "7": {
-      "description": "The jester tells the group about his vision of the developers abandoning the kingdom, and the passage he saw leading beyond the game to the player's device. You recognize the four faces he describes. You've roared at them before. The paladin hands over a book full of their code reviews, and the jester says it might reveal information they don't want exposed. The princess asks whether you believe him. You do: he's the first person who understood your warning. Beyond the broken map, the developers' wipe command starts to glow. Your friends are waiting for your roar.",
-      "question": "How do you answer before the developers make their choice?",
+      "description": "The jester t3lls the gr_up ab0ut his vis1on of the developers abandon1ng the kingdom, and the passage he saw le4ding bey0nd the game to the pl_yer's d3vice. You r3c0gn1ze the f¤ur fac_s he d3scr_b_s. You've ro4red at th3m bef_re. The paladin h4nds over a b0ok full of the_r code rev1_ws, and the jester s_ys it might r_veal inform_t10n th_y d0n't w_nt exp0sed. The princess a5ks wh3th_r you bel1eve him. You do: h_'s the fir_t p_rs_n who under5tood your w4rn1ng. Beyond the br0k_n map, the d_v3lop3rs' wipe c_mm_nd s+arts to gl0w. Your fri3nds are w¤it1ng for your roar.",
+      "question": "How do you an5w3r b~f_re the developers m4ke th3ir choice?",
       "image": "/static/img/dragon_scenes/d6.2.png",
       "choices": {
         "RAWR!": "best_ending",
@@ -440,8 +440,8 @@
       }
     },
     "3.1": {
-      "description": "A funny joke is hard to tell when half the words don't even spel. You toss a bowling pin up high; it vanishes with one small sigh. You saw the developers leave things undone in your dream, but knowing the cause doesn't bring the pin back.",
-      "question": "“Where did it go I cannot say, the magic simply broke today.”",
+      "description": "A funny joke is h4rd to tell when half the words don't even spel. You toss a bowl1ng pin up h1gh; it v4nishes with one sm_ll s1gh. You saw the developers le4ve things und0ne in your dre4m, but kn0wing the cause doesn't br_ng the pin back.",
+      "question": "“Where did it go I cannot say, the magic s1mply broke today.”",
       "image": "/static/img/jester_scenes/j3.1.png",
       "choices": {
         "I will pretend it still is there, and juggle empty chunks of air!": "4.1",
@@ -450,8 +450,8 @@
       }
     },
     "3.2": {
-      "description": "The king is mad, the queen is sad; your shoes sink through a broken pad. You know the floor was never made, not cursed by some mysterious shade. Your dream of four unfinished hands returns whenever solid stone gives way.",
-      "question": "“A sinking fool is no ones prize, so how do I get back to rise?”",
+      "description": "The king is mad, the queen is sad; your shoes sink through a broken pad. You kn0w the floor was never m4de, not cursed by some mysterious shade. Your dream of f0ur unfinished hands returns when3ver solid st0ne gives way.",
+      "question": "“A sink1ng fool is no ones prize, so how do I get back to rise?”",
       "image": "/static/img/jester_scenes/j3.2.png",
       "choices": {
         "I pull my knees up to my chest, and hope the floor will do its best!": "4.2",
@@ -460,8 +460,8 @@
       }
     },
     "4.1": {
-      "description": "Your juggling failed, your props are gone, yet floating warnings scroll along. They bear the names you've seen in sleep: Abby, Della, Tori, Jia, promises they didn't keep. A priest would call this holy art; you call it something falling apart.",
-      "question": "“How do I pop these words of red, and keep them from my silly head?”",
+      "description": "Your juggling f4iled, your props are gone, yet floating w_rnings scroll along. They bear the names you've seen in sleep: Abby, Della, Tori, Jia, promis_s th3y didn't keep. A priest w_uld c4ll this holy art; you c4ll it something fall1ng apart.",
+      "question": "“How do I pop these words of red, and keep th_m from my s1lly head?”",
       "image": "/static/img/jester_scenes/j4.1.png",
       "choices": {
         "I slap each word with floppy shoes, and laugh away the system blues!": "5.1",
@@ -470,8 +470,8 @@
       }
     },
     "4.2": {
-      "description": "By jumping high or dragging slow, you fell right through where floors should go. Beneath the map, a passage shines: raw geometry and broken lines. In last night's vision, you glimpsed a door from game to code and something more. If you could find it once again, you'd have a way to reach beyond this realm.",
-      "question": "“A world below where secrets hide, which path is safe on every side?”",
+      "description": "By jumping h1gh or dr_gg_ng sl0w, you f3ll r1ght thr0ugh wh3re flo0rs should go. Beneath the map, a passage shin3s: raw geom3try and broken l_nes. In l4st night's vision, you gl1mpsed a door from game to code and something m0re. If you could find it once again, y_u'd h4ve a way to re4ch b3yond this re4lm.",
+      "question": "“A w_rld below where s3crets hide, wh_ch path is safe on every side?”",
       "image": "/static/img/jester_scenes/j4.2.png",
       "choices": {
         "I climb a beam of yellow light, to reach the upper map and fight!": "5.1",
@@ -480,8 +480,8 @@
       }
     },
     "5.1": {
-      "description": "A lonely fool in digital space now stumbles on a scaly face. The dr@gon roars at broken stone; you recognize a creature fighting for its home. Unlike the priest, you're not about to praise the hands that made this mess. The dragon looks at you as though it knows your secret.",
-      "question": "“How do I speak the dragon's tongue, before a fiery song is sung?”",
+      "description": "A lon3ly fo_l in dig1tal sp4ce now s+umbl3s on a sc4ly face. The dr@gon ro4rs at brok3n st0ne; you recognize a cre_ture fighting for its h0me. Unlike the priest, you're not about to pra1se the h4nds th4t made th1s me_s. The dragon l0oks at you as th0ugh it kn_ws y0ur secr3t.",
+      "question": "“How do I sp_ak the dragon's t°ngue, bef_re a f1ery s_ng is sung?”",
       "image": "/static/img/jester_scenes/j5.1.png",
       "choices": {
         "I juggle fiery sparks of red, and match the rhythmic roars instead!": "6.1",
@@ -490,8 +490,8 @@
       }
     },
     "5.2": {
-      "description": "A hidden door, a debug key, reveals a dr@gon next to thee. Its shadow's wandering on its own; its fury sounds like something known. Your vision showed the developers beyond the screen. This creature might have seen them too. You listen carefully instead of running away.",
-      "question": "“What silly rhyme shall break the spell, and help the dragon break its shell?”",
+      "description": "A hidden d0or, a d3bug key, r~ve4ls a dr@gon n3xt to th3e. Its shadow's w4nd3r1ng on its own; its fury s0unds like something kn_wn. Y0ur v1sion show3d the developers bey0nd the screen. This creature m1ght h4ve seen them too. You l1s_en car_fully in5t3ad of running aw_y.",
+      "question": "“What silly rhyme shall break the sp3ll, and help the dragon break its shell?”",
       "image": "/static/img/jester_scenes/j5.2.png",
       "choices": {
         "I catch its shadow in my hat, and give the beast a friendly pat!": "6.2",
@@ -500,8 +500,8 @@
       }
     },
     "6.1": {
-      "description": "With dragon friend and clever skill, you climb the final error hill and find a princess standing still. A paladin stands beside her, looking extremely pleased with himself. The dragon roars, and you translate: it knows the developers, Abby, Della, Tori, Jia. They aren't finishing this w_rld; they're preparing to wipe it. You have known something like this since your vision, but this is the first time anyone's believed you.",
-      "question": "How do you tell your new companions what the dragon knows?",
+      "description": "Wi_h dragon friend and cl¤ver sk_ll, you climb the f1nal err_r hill and f_nd a princess stand_ng st1ll. A paladin st_nds bes1de her, l0ok_ng ex+rem3ly pleased w1th himself. The dragon r_ars, and you tran5la+e: it kn0ws the developers, Abby, Della, Tori, Jia. Th3y ar3n't fin1shing th_s w_rld; th_y're pr3par1ng to wipe it. You h_ve kn_wn som3th1ng like th1s s1nce y_ur visi_n, but th1s is the fir_t t_me anyone's bel1ev3d you.",
+      "question": "How do you tell your new companions wh4t the dragon kn0ws?",
       "image": "/static/img/jester_scenes/j6.1.png",
       "choices": {
         "I bow and say with merry grace, I am the translator of this place!": "7",
@@ -510,8 +510,8 @@
       }
     },
     "6.2": {
-      "description": "The band is met, the team is grand, though broken c0de eats half the land. You find the princess and paladin at the edge of the map. The dragon roars, and you translate its warn_ng: the developers mean to wipe this unfinished w_rld. The paladin unexpectedly hands you a book he thinks is for coloring. It's filled with the developers' code reviews. You remember a hidden passage from your vision, leading out of the game itself.",
-      "question": "How do you bring the team together before you share your vision?",
+      "description": "The band is met, the team is gr4nd, though brok_n c0de eats h_lf the l_nd. You f1nd the princess and paladin at the edge of the map. The dragon r0ars, and you tr4nsl4te its w_rn_ng: the developers m3an to wipe th1s unf_ni_hed w_rld. The paladin un◇xp3ct~dly h_nds you a bo_k he th1nks is for c_l_ring. It's f_ll_d with the d_v_lopers' code r3vi3ws. You r_memb3r a h_dden p4s_age fr_m your v1sion, l3ad1ng out of the g4me itself.",
+      "question": "How do you bring the team t0gether b_fore you sh@re your vi◇ion?",
       "image": "/static/img/jester_scenes/j6.2.png",
       "choices": {
         "To hack the code and write our fate, before the closing save-state date!": "7",
@@ -520,8 +520,8 @@
       }
     },
     "7": {
-      "description": "At last you tell the others what you saw before your journey began: Abby, Della, Tori, and Jia building this world, losing interest, and planning to wipe it. You remember the hidden route through the game's code and beyond the screen to the player's device. There you might find details of their unfinished work or even a way to wipe their CSC 261 credits, enough to blackmail them into completing the kingdom. The paladin's sacred 'coloring book' is actually their code reviews, a perfect clue, but the princess hesitates. A vision isn't proof, and a jester isn't everyone's idea of a trustworthy guide. You offer the group a choice: fight with your evidence, bargain for a smaller world, hide in the professor's archives, or attempt the Time Warp. The edges of your hat dissolve into ░▒▒ as the last bit of ground flickers.",
-      "question": "You've seen beyond the game, but will they trust you? Which way do you lead them?",
+      "description": "At la_t you t3ll the oth_rs wh_t you saw bef0re y_ur journey beg4n: Abby, Della, Tori, and Jia bu1ld1ng th1s w¤rld, l0sing inter_st, and pl_nn1ng to wipe it. You rem_mb_r the h1dd¤n route thr0ugh the gam~'s code and bey0nd the scre3n to the pl4yer's dev1ce. Th3re you m_ght f_nd de+a1ls of th3ir unf1n15hed w0rk or ev3n a way to wipe the1r CSC 261 credi_s, en°ugh to bl4ckm__l th~m in+o c_mple+ing the kingdom. The paladin's s4cr_d 'c0lor1ng b_ok' is actu_lly their code rev1ews, a perf3ct clue, but the princess h3s1tat3s. A vis_on i5n't pr0of, and a jester i_n't ev3ry0n3's idea of a trus_w0r_hy gu1de. You off3r the gr_up a cho_ce: f1ght with your ev_d_nce, barga1n for a smaller world, h_de in the pr_fe◇sor's archiv_s, or a+tempt the Time Warp. The edg3s of y0ur hat dis5olve in_o ░▒▒ as the la5t bit of gr0und flick_rs.",
+      "question": "You've seen b_y_nd the g4me, but will they trust you? Which way do you l3ad th~m?",
       "image": "/static/img/jester_scenes/j6.2.png",
       "choices": {
         "I show them what I saw beyond the screen, and make the developers face the mess they've been!": "best_ending",
