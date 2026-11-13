@@ -1,5 +1,9 @@
 {% extends 'base.html' %}
 
+<!-- {% block body_tag %}
+<body class="everyPageBackground" onload = "typeWriter()">
+{% endblock %} -->
+
 {% block scene_results %}
 
 <div class = "scene">
@@ -28,15 +32,17 @@
 </div>
 </div>
 
-<!-- developed from w3 schools, chatgpt -->
+<!-- developed from w3 schools https://www.w3schools.com/howto/howto_js_typewriter.asp -->
 <script>
     var i = 0;
     var speed = 50;
     const txt = {{ scene_data['description'] | tojson }};
 
     function typeWriter() {
+        // make slower,
+        // add more pause after punctuation
         if (i < txt.length) {
-            typedElement.textContent += txt.charAt(i);
+            document.getElementById("typed").innerHTML += txt.charAt(i);
             i++;
             setTimeout(typeWriter, speed);
         }
