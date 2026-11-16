@@ -45,9 +45,10 @@
             <img src = "static/img/Choose Your Character.png"/>
         </div>
         <div class = "charImg" id = "princess">
+            
             <!-- from google ai  -->
             <audio autoplay loop>
-                <source src="static/audio/test.mp3" type="audio/mpeg">
+                <source src="static/audio/princess.m4a" type="audio/mpeg">
                 Your browser does not support the audio element.
             </audio>
 
@@ -65,6 +66,13 @@
         </div>
 
         <div class = "charImg" id = "ken">
+
+            <!-- from google ai  -->
+            <audio autoplay loop>
+                <source src="static/audio/paladin_ken.m4a" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
             <img  src = "static/img/CharIMG/Ken.png"/>
             <div class = descAndDepart>
                 <p>
@@ -75,7 +83,15 @@
                 <div class = "departBut"><a href = "/scene/paladin/1"><img src = "static/img/DepartSigns/ken_depart.png"/></a></div>
             </div>
         </div> 
+
         <div class = "charImg" id = "dragon">
+
+            <!-- from google ai  -->
+            <!-- <audio autoplay loop>
+                <source src="static/audio/dragon.m4a" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio> -->
+
             <img src = "static/img/CharIMG/dragon.png"/> 
             <div class = descAndDepart>
             <p>
@@ -124,10 +140,6 @@
             function dropMenu() {
                 document.getElementById("navDropdown").classList.toggle("show");
             }
-
-            // async function firstPage(char){
-
-            // }
 
             function changeJesterColor(){
                 document.getElementById("jester").classList.toggle("color");
