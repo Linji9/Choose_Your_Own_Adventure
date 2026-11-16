@@ -550,7 +550,7 @@
     "time_warp": {
       "title": "The Time Warp: Back to the Beginning",
       "_comment": "With the developers' wipe command closing in, the heroes trigger the Time Warp. The kingdom shudders, the screen flashes, and every character is sent back to the start of their adventure. The princess returns to her tower, the paladin to his courtyard, the dragon to its gold, and the jester to his opening act. None of them knows how many times they've done this before. The world survives for now, trapped in a ridiculous, endlessly repeating reset.",
-      "image": "/static/img/endings/end_cozy.png"
+      "image": "/static/img/endings/time_warp.png"
     }
   }
 }

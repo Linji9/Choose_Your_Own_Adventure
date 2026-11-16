@@ -3,17 +3,26 @@
     {% block scene_results %}
 
     <div class = "scene">
-    <div class="noChoices">
-        <div class="storyDescAndImage">
+        <div class="noChoices">
+            <div class="storyDescAndImage">
 
-            <h2 class = "storyDescAndQ"> {{ scene_data['title'] }}</h2>
+                <h2 class = "storyDescAndQ"> {{ scene_data['title'] }}</h2>
 
-            <img class = "storyImg" src = " {{ scene_data['image'] }} "/>
+                <img class = "storyImg" src = " {{ scene_data['image'] }} "/>
 
-            <h2 class = "storyDescAndQ"> {{ scene_data['_comment'] }} </h2>
+                <h2 class = "storyDescAndQ"> {{ scene_data['_comment'] }} </h2>
 
+            </div>
         </div>
-    </div>
+
+        <!-- labeled choices to have same formatting as scene choice buttons -->
+        <div class = "choices">
+            <div class = "choiceButton">
+
+                <a class = "choiceButtonText" href = "/choose_char.html">Try Again?</a>
+                <a class = "choiceButtonText" href = "/home.html">Home</a>
+            </div>
+        </div>
     </div>
 
     {% endblock %}

@@ -35,12 +35,11 @@
 <!-- developed from w3 schools https://www.w3schools.com/howto/howto_js_typewriter.asp -->
 <script>
     var i = 0;
-    var speed = 50;
+    var speed = 105;
     const txt = {{ scene_data['description'] | tojson }};
 
     function typeWriter() {
-        // make slower,
-        // add more pause after punctuation
+        // add more pause after punctuation?
         if (i < txt.length) {
             document.getElementById("typed").innerHTML += txt.charAt(i);
             i++;
