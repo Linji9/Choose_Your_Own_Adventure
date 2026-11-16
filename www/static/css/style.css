@@ -218,7 +218,7 @@ p {
 }
 
 .Background {
-    background-image: url(../img/TNEA_Background.png);
+    background-image: url(../img/TNEA_Background.jpeg);
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
@@ -230,7 +230,7 @@ p {
 /* MARK: MobileHome */
 @media screen and (max-width: 650px) {
     .Background {
-    background-image: url(../img/TNEA_Background.png);
+    background-image: url(../img/TNEA_Background.jpeg);
     background-repeat: no-repeat;
     background-position: -210px top;
     background-size: cover;
@@ -453,7 +453,7 @@ div.charImg.reveal.color {
 
 /* MARK: PageBG */
 .everyPageBackground {
-    background-image: url(../img/pageBackground.png), url(../img/mobileBackground.png);
+    background-image: url(../img/pageBackground.jpeg), url(../img/mobileBackground.jpeg);
     background-repeat: no-repeat, repeat-y;
     background-position: center top, center top;
     background-size: cover, 100% auto;
@@ -464,7 +464,7 @@ div.charImg.reveal.color {
 
 @media screen and (max-width: 700px) {
     .everyPageBackground{
-    background-image: url(../img/mobileBackground.png);
+    background-image: url(../img/mobileBackground.jpeg);
     background-repeat: repeat;
     background-position: center -30px;
     background-size: cover;
