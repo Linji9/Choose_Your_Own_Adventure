@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
 
+/* MARK: body */
 body {
     font-family: sans-serif;
     padding: 0;
@@ -10,7 +11,7 @@ body {
     color: #222;
 }
 
-
+/* MARK:h1 */
 h1 {
     font-family: "Garamond", serif;
     font-weight: bold;
@@ -20,7 +21,7 @@ h1 {
     color:black;
 }
 
-
+/* MARK: h2 */
 h2 {
     font-family: "Garamond", serif;
     font-weight: bold;
@@ -30,6 +31,7 @@ h2 {
     color:black;
 }
 
+/* MARK: p */
 p {
     font-family: "Garamond", serif;
     font-size: 1.5rem;
@@ -37,6 +39,7 @@ p {
     color:black;
 }
 
+/* MARK: Header */
 /* New Header Layout/Design below*/
 .New_Header_Logo {
     display: flex;
@@ -84,6 +87,7 @@ p {
     Developed from w3schools example:
     https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown
 */
+/* MARK: DropDownBut */
 .DropdownBtn {
   padding: 16px;
   border: none;
@@ -122,6 +126,7 @@ p {
 .DropdownContent a:hover {background-color: rgb(246, 179, 179);}
 .show {display: block;}
 
+/* MARK:MobileHeader */
 @media screen and (max-width: 700px) {
 .mobile_header {
     display: flex;
@@ -180,6 +185,7 @@ p {
     row-gap: 25px;
 }
 
+/* MARK: HomePage */
 .home_image_text {
     width: 400px;
     height: auto;
@@ -221,6 +227,7 @@ p {
     width: 100vw;
 }
 
+/* MARK: MobileHome */
 @media screen and (max-width: 650px) {
     .Background {
     background-image: url(../img/TNEA_Background.png);
@@ -270,6 +277,7 @@ p {
     }
 }
 
+/* MARK: ChooseChar */
 /* for character choose sheet below */
 ul.noCastle {
     display: flex;
@@ -329,6 +337,7 @@ li.char {
     text-align: center;
 }
 
+/* MARK: MobChooseChar */
 /* makes buttons stack once the page gets too small */
 @media screen and (max-width: 768px) {
     ul.noCastle {
@@ -360,7 +369,7 @@ li.char {
 }
 }
 
-
+/* MARK: CharImg */
 /* classes used to reveal and hide buttons*/
 .charImg{
     display: none;
@@ -393,7 +402,7 @@ div.charImg.reveal.color {
     }
 }
 
-
+/* MARK: CharFonts */
 /*changes font for each character*/
 #princess p{
     font-family: "Moon Dance", cursive;
@@ -416,6 +425,33 @@ div.charImg.reveal.color {
     font-family: "Kablammo", cursive;
     font-size: x-large;
 }
+
+#default img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    object-fit: cover;
+
+    height: auto;
+    width: 700px;
+}
+
+@media screen and (max-width: 700px) {
+    #default img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+
+        object-fit: cover;
+
+        height: 200px;
+        width: auto;
+    }
+}
+
+/* MARK: PageBG */
 .everyPageBackground {
     background-image: url(../img/pageBackground.png), url(../img/mobileBackground.png);
     background-repeat: no-repeat, repeat-y;
@@ -438,6 +474,7 @@ div.charImg.reveal.color {
     }
 }
 
+/* MARK: SecretBut */
 /* secret buttons thrown in */
 .secretButton {
   padding: 16px;
@@ -445,6 +482,7 @@ div.charImg.reveal.color {
   border: none;
 }
 
+/* MARK: PlayCSS */
 .scene {
     display: flex;
     flex-direction: column;
@@ -472,6 +510,7 @@ div.charImg.reveal.color {
     height: auto;
 }
 
+/* MARK: MobilePlay */
 @media screen and (max-width: 700px) {
     .storyDescAndQ{
     display: flex;
@@ -485,6 +524,8 @@ div.charImg.reveal.color {
     height: auto;
 }
 }
+
+/* MARK: ChoiceButs */
 .choices {
     display: flex;
     flex-direction: row;
@@ -526,7 +567,7 @@ div.charImg.reveal.color {
     overflow-wrap: break-word;
 }
 
-
+/* MARK:MobileCHoice */
 @media screen and (max-width: 900px) {
     .choices {
         flex-direction: column;
@@ -539,7 +580,7 @@ div.charImg.reveal.color {
     }
 }
 
-
+/* MARK:BackPage */
 .backPage {
     display: flex;
     flex-direction: column;
