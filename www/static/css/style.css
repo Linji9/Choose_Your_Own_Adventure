@@ -567,6 +567,10 @@ div.charImg.reveal.color {
     overflow-wrap: break-word;
 }
 
+.choiceButtonText:hover {
+    filter: brightness(130%)
+}
+
 /* MARK:MobileCHoice */
 @media screen and (max-width: 900px) {
     .choices {
