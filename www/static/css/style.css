@@ -508,6 +508,7 @@ div.charImg.reveal.color {
 .storyImg {
     width: 60%;
     height: auto;
+    border-radius: 15px;
 }
 
 /* MARK: MobilePlay */
