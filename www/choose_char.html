@@ -12,7 +12,9 @@
         <nav>
             <div class="header_container">
                 <div class="mobile_header">
-                    <img src="static/img/newMobileHeader.png"/>
+                    <a href = "home.html">
+                        <img src="static/img/newMobileHeader.png"/>
+                    </a>
                 </div>
                 <div class="New_Header_Logo">
                     <a href = "home.html">
@@ -35,19 +37,21 @@
         
         <div class="buttons">
             <ul class="noCastle">
-                <li class = "char"><img class = "charButton" src = "static/img/CharButs/PrinBut.png" alt = "Choose Princess" onclick = "showImage('princess')"/> </li>
-                <li class = "char"><img class = "charButton" src = "static/img/CharButs/KenBut.png" alt = "Choose Ken" onclick = "showImage('ken')"/> </li>
-                <li class = "char"><img class = "charButton" src = "static/img/CharButs/DragBut.png" alt = "Choose Dragon" onclick = "showImage('dragon')"/> </li>
-                <li class = "char"><img class = "charButton" src = "static/img/CharButs/JestBut.png" alt = "Choose Jester" onclick = "showImage('jester')"/> </li>
+                <li class = "char"><img class = "charButton" src = "static/img/CharButs/PrinBut.png" alt = "Choose Princess" onclick = "showImage('princess'); playAudio('princess')"/> </li>
+                <li class = "char"><img class = "charButton" src = "static/img/CharButs/KenBut.png" alt = "Choose Ken" onclick = "showImage('ken'); playAudio('ken')"/> </li>
+                <li class = "char"><img class = "charButton" src = "static/img/CharButs/DragBut.png" alt = "Choose Dragon" onclick = "showImage('dragon'); playAudio('dragon')"/> </li>
+                <li class = "char"><img class = "charButton" src = "static/img/CharButs/JestBut.png" alt = "Choose Jester" onclick = "showImage('jester'); playAudio('jester')"/> </li>
             </ul>
 
         <div class = "charImg reveal" id = "default">
             <img src = "static/img/Choose Your Character.png"/>
         </div>
+
+        <!-- princess -->
         <div class = "charImg" id = "princess">
             
             <!-- from google ai  -->
-            <audio autoplay loop>
+            <audio class = "audio" loop>
                 <source src="static/audio/princess.m4a" type="audio/mpeg">
                 Your browser does not support the audio element.
             </audio>
@@ -65,13 +69,14 @@
             </div>
         </div>
 
+        <!-- Paladin -->
         <div class = "charImg" id = "ken">
 
             <!-- from google ai  -->
-            <!-- <audio autoplay loop>
+            <audio class = "audio" loop>
                 <source src="static/audio/paladin_ken.m4a" type="audio/mpeg">
                 Your browser does not support the audio element.
-            </audio> -->
+            </audio>
 
             <img  src = "static/img/CharIMG/Ken.png"/>
             <div class = descAndDepart>
@@ -84,13 +89,14 @@
             </div>
         </div> 
 
+        <!-- Dragon -->
         <div class = "charImg" id = "dragon">
 
             <!-- from google ai  -->
-            <!-- <audio autoplay loop>
+            <audio class = "audio" loop>
                 <source src="static/audio/dragon.m4a" type="audio/mpeg">
                 Your browser does not support the audio element.
-            </audio> -->
+            </audio>
 
             <img src = "static/img/CharIMG/dragon.png"/> 
             <div class = descAndDepart>
@@ -103,7 +109,12 @@
             </div>
 
         </div>
+
+        <!-- Jester -->
         <div class = "charImg" id = "jester">
+            <audio class = "audio" loop>
+                <source src = "static/audio/vigs.m4a" type = "audio/mpeg">
+            </audio>
             <img src = "static/img/CharIMG/jester.png"/>
             <div class = descAndDepart>
             <p>
@@ -135,6 +146,21 @@
                 img.classList.add('reveal');
             }
 
+            function playAudio(id){
+                //getting all the audios from each character
+                const allAudios = document.querySelectorAll('audio');
+                //making sure no other audio is playing
+                for (const audio of allAudios){
+                    audio.pause();
+                }
+                
+                //playing the audio of the specific character we want
+                const character = document.getElementById(id);
+                
+                const charAudio = character.querySelector('audio');
+                charAudio.classList.add('play')
+                charAudio.play();
+            }
             // toggle between hiding and showing the dropdown content
             // from w3schools https://www.w3schools.com/howto/howto_js_dropdown.asp
             function dropMenu() {
