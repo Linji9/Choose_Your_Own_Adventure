@@ -592,14 +592,26 @@ div.charImg.reveal.color {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 20px;
+    padding: 5px;
 }
 .textBack {
     text-align: center;
 }
 
 .imageBack {
-    width: 350px;
+    width: 300px;
     height: auto;
 
+}
+
+#fakeLink {
+    text-decoration: underline;
+    color: blue;
+}
+
+#realLink {
+    text-decoration: none;
+    color: black;
+    display: none;
+    transform: translate(400px, -100px);
 }

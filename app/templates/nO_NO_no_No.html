@@ -9,6 +9,9 @@
         <div class = "backPage">
         <h1 class = "textBack"> {{ msg }} </h1>
         <img class = "imageBack" src="/static/img/{{ person }}.png"/>
+        <h2 onmouseover="disappear()" class = "textBack" id="fakeLink"> F**k you start over! </h2>
+        <h2 onmouseover="disappear()" class = "textBack" id="realLink"> <a href="/home.html"> jk here's the link </a> </h2>
+
         </div>
         {% endblock %}
         <script>
@@ -17,6 +20,12 @@
             window.addEventListener('popstate', function (event) {
                 window.location.href = '/nO_NO_no_No';
             })
+            function disappear() {
+                const fakeLink = document.getElementById("fakeLink");
+                const realLink = document.getElementById("realLink");
+                fakeLink.remove()
+                realLink.style.display = "block";
+            }
         </script>
     </body>
 </html>
