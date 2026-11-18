@@ -36,7 +36,13 @@
             }
         }
 
+        // when story is finished, clear progress
+        function clearLocalStorage() {
+            localStorage.clear();
+        }
+
         typeWriter();
+        clearLocalStorage();
 
     </script>
 

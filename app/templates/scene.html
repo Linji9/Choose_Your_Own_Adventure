@@ -19,7 +19,7 @@
 
         <!-- creating a button for each choice that will lead to the next scene when clicked -->
         <div class = "choiceButton">
-            <a class = "choiceButtonText" href = "/scene/{{char}}/{{value}}"> {{ key }} </a>
+            <a class = "choiceButtonText" onclick = "updateLocalStorage({{ key }})" href = "/scene/{{char}}/{{value}}"> {{ key }} </a>
         </div>
 
     {% endfor %}
@@ -39,6 +39,11 @@
             i++;
             setTimeout(typeWriter, speed);
         }
+    }
+
+    // add last scene to local storage
+    function updateLocalStorage(scene) {
+        localStorage.setItem("lastScene", scene);
     }
 
     typeWriter();

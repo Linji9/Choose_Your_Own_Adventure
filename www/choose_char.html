@@ -63,7 +63,7 @@
                 so you find some adventure by defying your parents’ orders and venturing beyond the castle walls.
             </p>
             
-            <div class = "departBut">
+            <div class = "departBut" onclick = "initializeLocalStorage('princess')">
                 <a href = "/scene/princess/1"><img src = "static/img/DepartSigns/princess_depart.png"/></a>
             </div>
             </div>
@@ -85,7 +85,9 @@
                     grounds on your trusty steed. You’ll be facing some challenging opponents through your journey.
                 </p>
 
-                <div class = "departBut"><a href = "/scene/paladin/1"><img src = "static/img/DepartSigns/ken_depart.png"/></a></div>
+                <div class = "departBut" onclick = "initializeLocalStorage('paladin')">
+                    <a href = "/scene/paladin/1"><img src = "static/img/DepartSigns/ken_depart.png"/></a>
+                </div>
             </div>
         </div> 
 
@@ -105,7 +107,9 @@
                 living your life in dragon bliss.
             </p>
            
-            <div class = "departBut"><a href = "/scene/dragon/1"><img src = "static/img/DepartSigns/dragon_depart.png"/></a></div>
+            <div class = "departBut" onclick = "initializeLocalStorage('dragon')">
+                <a href = "/scene/dragon/1"><img src = "static/img/DepartSigns/dragon_depart.png"/></a>
+            </div>
             </div>
 
         </div>
@@ -121,7 +125,9 @@
                 Bring laughter and mischief to the royal court with clever wit. As The Jester, you must use your playful 
                 tricks to navigate the sticky situations that all jesters face.
             </p>
-            <div class = "departBut"><a href = "/scene/jester/1"><img src = "static/img/DepartSigns/jester_depart.png"/></a></div>
+            <div class = "departBut" onclick = "initializeLocalStorage('jester')">
+                <a href = "/scene/jester/1"><img src = "static/img/DepartSigns/jester_depart.png"/></a>
+            </div>
             </div> 
 
             <button class="secretButton" onclick="changeJesterColor()"> </button>
@@ -170,6 +176,12 @@
             function changeJesterColor(){
                 document.getElementById("jester").classList.toggle("color");
             }
+
+            // for choose char; add character choice to local storage
+            function initializeLocalStorage(char) {
+                localStorage.setItem("character", char);
+            }
+
         </script>
     </body>
 </html>
